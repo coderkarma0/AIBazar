@@ -1,0 +1,602 @@
+[
+  {
+    "rank": 1,
+    "toolId": "chatgpt",
+    "score": 9.8,
+    "achievement": "Most versatile AI assistant of the year"
+  },
+  {
+    "rank": 2,
+    "toolId": "claude",
+    "score": 9.7,
+    "achievement": "Best AI for reasoning and analysis"
+  },
+  {
+    "rank": 3,
+    "toolId": "midjourney",
+    "score": 9.5,
+    "achievement": "Best AI image generator"
+  },
+  {
+    "rank": 4,
+    "toolId": "copilot",
+    "score": 9.4,
+    "achievement": "Top programming assistant"
+  },
+  {
+    "rank": 5,
+    "toolId": "notion-ai",
+    "score": 9.2,
+    "achievement": "Top productivity booster"
+  },
+  {
+    "rank": 6,
+    "toolId": "dall-e",
+    "score": 9.1,
+    "achievement": "Most creative image generation"
+  },
+  {
+    "rank": 7,
+    "toolId": "grammarly",
+    "score": 9.0,
+    "achievement": "Best writing enhancement tool"
+  },
+  {
+    "rank": 8,
+    "toolId": "jasper",
+    "score": 8.9,
+    "achievement": "Top marketing content generator"
+  },
+  {
+    "rank": 9,
+    "toolId": "stable-diffusion",
+    "score": 8.8,
+    "achievement": "Best open-source image generator"
+  },
+  {
+    "rank": 10,
+    "toolId": "perplexity",
+    "score": 8.7,
+    "achievement": "Most reliable AI search engine"
+  },
+  {
+    "rank": 11,
+    "toolId": "runway-ml",
+    "score": 8.6,
+    "achievement": "Best video AI platform"
+  },
+  {
+    "rank": 12,
+    "toolId": "elevenlabs",
+    "score": 8.5,
+    "achievement": "Most realistic voice synthesis"
+  },
+  {
+    "rank": 13,
+    "toolId": "copy-ai",
+    "score": 8.4,
+    "achievement": "Best copywriting assistant"
+  },
+  {
+    "rank": 14,
+    "toolId": "synthesia",
+    "score": 8.3,
+    "achievement": "Top AI video creation platform"
+  },
+  {
+    "rank": 15,
+    "toolId": "tome",
+    "score": 8.2,
+    "achievement": "Best presentation AI tool"
+  },
+  {
+    "rank": 16,
+    "toolId": "murf",
+    "score": 8.1,
+    "achievement": "Best voiceover generation"
+  },
+  {
+    "rank": 17,
+    "toolId": "beautiful-ai",
+    "score": 8.0,
+    "achievement": "Most intuitive presentation builder"
+  },
+  {
+    "rank": 18,
+    "toolId": "descript",
+    "score": 7.9,
+    "achievement": "Best audio/video editing AI"
+  },
+  {
+    "rank": 19,
+    "toolId": "otter-ai",
+    "score": 7.8,
+    "achievement": "Top meeting transcription tool"
+  },
+  {
+    "rank": 20,
+    "toolId": "canva-ai",
+    "score": 7.7,
+    "achievement": "Most accessible design AI"
+  },
+  {
+    "rank": 21,
+    "toolId": "writesonic",
+    "score": 7.6,
+    "achievement": "Best content writing platform"
+  },
+  {
+    "rank": 22,
+    "toolId": "figma-ai",
+    "score": 7.5,
+    "achievement": "Top design automation tool"
+  },
+  {
+    "rank": 23,
+    "toolId": "rytr",
+    "score": 7.4,
+    "achievement": "Most affordable writing assistant"
+  },
+  {
+    "rank": 24,
+    "toolId": "adobe-firefly",
+    "score": 7.3,
+    "achievement": "Best creative suite integration"
+  },
+  {
+    "rank": 25,
+    "toolId": "loom-ai",
+    "score": 7.2,
+    "achievement": "Best video summarization"
+  },
+  {
+    "rank": 26,
+    "toolId": "wordtune",
+    "score": 7.1,
+    "achievement": "Top text improvement tool"
+  },
+  {
+    "rank": 27,
+    "toolId": "gamma",
+    "score": 7.0,
+    "achievement": "Most versatile document creator"
+  },
+  {
+    "rank": 28,
+    "toolId": "uizard",
+    "score": 6.9,
+    "achievement": "Best UI/UX design AI"
+  },
+  {
+    "rank": 29,
+    "toolId": "quillbot",
+    "score": 6.8,
+    "achievement": "Top paraphrasing tool"
+  },
+  {
+    "rank": 30,
+    "toolId": "framer-ai",
+    "score": 6.7,
+    "achievement": "Best web design AI"
+  },
+  {
+    "rank": 31,
+    "toolId": "research-rabbit",
+    "score": 6.6,
+    "achievement": "Top research discovery tool"
+  },
+  {
+    "rank": 32,
+    "toolId": "hemingway-ai",
+    "score": 6.5,
+    "achievement": "Best readability enhancer"
+  },
+  {
+    "rank": 33,
+    "toolId": "webflow-ai",
+    "score": 6.4,
+    "achievement": "Best no-code web builder"
+  },
+  {
+    "rank": 34,
+    "toolId": "elicit",
+    "score": 6.3,
+    "achievement": "Top research assistant"
+  },
+  {
+    "rank": 35,
+    "toolId": "lex",
+    "score": 6.2,
+    "achievement": "Best creative writing assistant"
+  },
+  {
+    "rank": 36,
+    "toolId": "consensus",
+    "score": 6.1,
+    "achievement": "Most reliable scientific search"
+  },
+  {
+    "rank": 37,
+    "toolId": "sudowrite",
+    "score": 6.0,
+    "achievement": "Top fiction writing tool"
+  },
+  {
+    "rank": 38,
+    "toolId": "scite",
+    "score": 5.9,
+    "achievement": "Best citation analysis tool"
+  },
+  {
+    "rank": 39,
+    "toolId": "novel-ai",
+    "score": 5.8,
+    "achievement": "Most creative storytelling AI"
+  },
+  {
+    "rank": 40,
+    "toolId": "claude-instant",
+    "score": 5.7,
+    "achievement": "Best budget conversational AI"
+  },
+  {
+    "rank": 41,
+    "toolId": "bard",
+    "score": 5.6,
+    "achievement": "Best Google-integrated AI"
+  },
+  {
+    "rank": 42,
+    "toolId": "character-ai",
+    "score": 5.5,
+    "achievement": "Most entertaining AI platform"
+  },
+  {
+    "rank": 43,
+    "toolId": "replika",
+    "score": 5.4,
+    "achievement": "Best AI companion"
+  },
+  {
+    "rank": 44,
+    "toolId": "poe",
+    "score": 5.3,
+    "achievement": "Best multi-AI platform"
+  },
+  {
+    "rank": 45,
+    "toolId": "huggingface",
+    "score": 5.2,
+    "achievement": "Top open-source AI hub"
+  },
+  {
+    "rank": 46,
+    "toolId": "replit-ai",
+    "score": 5.1,
+    "achievement": "Best integrated coding AI"
+  },
+  {
+    "rank": 47,
+    "toolId": "codeium",
+    "score": 5.0,
+    "achievement": "Best free coding assistant"
+  },
+  {
+    "rank": 48,
+    "toolId": "tabnine",
+    "score": 4.9,
+    "achievement": "Most personalized coding AI"
+  },
+  {
+    "rank": 49,
+    "toolId": "cursor",
+    "score": 4.8,
+    "achievement": "Best AI code editor"
+  },
+  {
+    "rank": 50,
+    "toolId": "cody",
+    "score": 4.7,
+    "achievement": "Best context-aware coding AI"
+  },
+  {
+    "rank": 51,
+    "toolId": "amazon-codewhisperer",
+    "score": 4.6,
+    "achievement": "Best AWS integration"
+  },
+  {
+    "rank": 52,
+    "toolId": "openai-codex",
+    "score": 4.5,
+    "achievement": "Most powerful code generation"
+  },
+  {
+    "rank": 53,
+    "toolId": "blackbox-ai",
+    "score": 4.4,
+    "achievement": "Best quick coding solutions"
+  },
+  {
+    "rank": 54,
+    "toolId": "teachable-machine",
+    "score": 4.3,
+    "achievement": "Most accessible ML training"
+  },
+  {
+    "rank": 55,
+    "toolId": "runway-ml-training",
+    "score": 4.2,
+    "achievement": "Best creative ML platform"
+  },
+  {
+    "rank": 56,
+    "toolId": "lobe",
+    "score": 4.1,
+    "achievement": "Most user-friendly ML tool"
+  },
+  {
+    "rank": 57,
+    "toolId": "obviously-ai",
+    "score": 4.0,
+    "achievement": "Best no-code ML platform"
+  },
+  {
+    "rank": 58,
+    "toolId": "dataiku",
+    "score": 3.9,
+    "achievement": "Top enterprise data science platform"
+  },
+  {
+    "rank": 59,
+    "toolId": "h2o-ai-platform",
+    "score": 3.8,
+    "achievement": "Best open-source ML platform"
+  },
+  {
+    "rank": 60,
+    "toolId": "autogpt",
+    "score": 3.7,
+    "achievement": "Most autonomous AI agent"
+  },
+  {
+    "rank": 61,
+    "toolId": "babyagi",
+    "score": 3.6,
+    "achievement": "Best task-breaking AI agent"
+  },
+  {
+    "rank": 62,
+    "toolId": "langchain",
+    "score": 3.5,
+    "achievement": "Top AI development framework"
+  },
+  {
+    "rank": 63,
+    "toolId": "zapier-ai",
+    "score": 3.4,
+    "achievement": "Best automation platform"
+  },
+  {
+    "rank": 64,
+    "toolId": "make-ai",
+    "score": 3.3,
+    "achievement": "Most flexible automation tool"
+  },
+  {
+    "rank": 65,
+    "toolId": "microsoft-power-automate",
+    "score": 3.2,
+    "achievement": "Best enterprise automation"
+  },
+  {
+    "rank": 66,
+    "toolId": "uipath-ai",
+    "score": 3.1,
+    "achievement": "Top RPA platform"
+  },
+  {
+    "rank": 67,
+    "toolId": "automation-anywhere",
+    "score": 3.0,
+    "achievement": "Best enterprise RPA solution"
+  },
+  {
+    "rank": 68,
+    "toolId": "blue-prism",
+    "score": 2.9,
+    "achievement": "Most secure RPA platform"
+  },
+  {
+    "rank": 69,
+    "toolId": "openai-api",
+    "score": 2.8,
+    "achievement": "Most popular AI API"
+  },
+  {
+    "rank": 70,
+    "toolId": "anthropic-api",
+    "score": 2.7,
+    "achievement": "Most ethical AI API"
+  },
+  {
+    "rank": 71,
+    "toolId": "cohere-api",
+    "score": 2.6,
+    "achievement": "Best multilingual NLP API"
+  },
+  {
+    "rank": 72,
+    "toolId": "stability-ai-api",
+    "score": 2.5,
+    "achievement": "Top image generation API"
+  },
+  {
+    "rank": 73,
+    "toolId": "replicate-api",
+    "score": 2.4,
+    "achievement": "Best model hosting platform"
+  },
+  {
+    "rank": 74,
+    "toolId": "pinecone",
+    "score": 2.3,
+    "achievement": "Top vector database"
+  },
+  {
+    "rank": 75,
+    "toolId": "weaviate",
+    "score": 2.2,
+    "achievement": "Best open-source vector DB"
+  },
+  {
+    "rank": 76,
+    "toolId": "chroma",
+    "score": 2.1,
+    "achievement": "Most developer-friendly vector DB"
+  },
+  {
+    "rank": 77,
+    "toolId": "qdrant",
+    "score": 2.0,
+    "achievement": "Fastest vector search engine"
+  },
+  {
+    "rank": 78,
+    "toolId": "gpt-4-turbo",
+    "score": 1.9,
+    "achievement": "Latest breakthrough model"
+  },
+  {
+    "rank": 79,
+    "toolId": "gemini-pro",
+    "score": 1.8,
+    "achievement": "Google's advanced AI model"
+  },
+  {
+    "rank": 80,
+    "toolId": "claude-3-opus",
+    "score": 1.7,
+    "achievement": "Most capable reasoning model"
+  },
+  {
+    "rank": 81,
+    "toolId": "llama-2-70b",
+    "score": 1.6,
+    "achievement": "Best open-source language model"
+  },
+  {
+    "rank": 82,
+    "toolId": "mixtral-8x7b",
+    "score": 1.5,
+    "achievement": "Top mixture of experts model"
+  },
+  {
+    "rank": 83,
+    "toolId": "palm-2",
+    "score": 1.4,
+    "achievement": "Google's production AI model"
+  },
+  {
+    "rank": 84,
+    "toolId": "gpt-3.5-turbo",
+    "score": 1.3,
+    "achievement": "Most cost-effective AI model"
+  },
+  {
+    "rank": 85,
+    "toolId": "claude-2",
+    "score": 1.2,
+    "achievement": "Best long-context AI model"
+  },
+  {
+    "rank": 86,
+    "toolId": "codellama-34b",
+    "score": 1.1,
+    "achievement": "Top open-source coding model"
+  },
+  {
+    "rank": 87,
+    "toolId": "vicuna-33b",
+    "score": 1.0,
+    "achievement": "Best community-trained model"
+  },
+  {
+    "rank": 88,
+    "toolId": "alpaca-7b",
+    "score": 0.9,
+    "achievement": "Most efficient small model"
+  },
+  {
+    "rank": 89,
+    "toolId": "falcon-40b",
+    "score": 0.8,
+    "achievement": "Top multilingual open model"
+  },
+  {
+    "rank": 90,
+    "toolId": "mpt-30b",
+    "score": 0.7,
+    "achievement": "Best commercial-use model"
+  },
+  {
+    "rank": 91,
+    "toolId": "dolly-v2",
+    "score": 0.6,
+    "achievement": "Most accessible instruction model"
+  },
+  {
+    "rank": 92,
+    "toolId": "stablelm-7b",
+    "score": 0.5,
+    "achievement": "Best lightweight model"
+  },
+  {
+    "rank": 93,
+    "toolId": "openchat-7b",
+    "score": 0.4,
+    "achievement": "Top fine-tuned conversation model"
+  },
+  {
+    "rank": 94,
+    "toolId": "wizard-coder-15b",
+    "score": 0.3,
+    "achievement": "Best specialized coding model"
+  },
+  {
+    "rank": 95,
+    "toolId": "phind-codellama-34b",
+    "score": 0.2,
+    "achievement": "Top search-enhanced coding model"
+  },
+  {
+    "rank": 96,
+    "toolId": "sqlcoder-7b",
+    "score": 0.1,
+    "achievement": "Best database query model"
+  },
+  {
+    "rank": 97,
+    "toolId": "deepseek-coder-33b",
+    "score": 0.0,
+    "achievement": "Most advanced coding model"
+  },
+  {
+    "rank": 98,
+    "toolId": "starcode-15b",
+    "score": -0.1,
+    "achievement": "Best code completion model"
+  },
+  {
+    "rank": 99,
+    "toolId": "replit-code-v1",
+    "score": -0.2,
+    "achievement": "Most integrated development model"
+  },
+  {
+    "rank": 100,
+    "toolId": "codegen-16b",
+    "score": -0.3,
+    "achievement": "Pioneer of AI code generation"
+  }
+]

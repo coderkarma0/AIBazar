@@ -1,0 +1,702 @@
+[
+  {
+    "id": "c1",
+    "toolId": "chatgpt",
+    "code": "CHATGPT50",
+    "description": "ChatGPT Plus - 50% Off First Month with enhanced GPT-4 features",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c2",
+    "toolId": "claude",
+    "code": "CLAUDE30",
+    "description": "Claude Pro - 30% Off Annual Plan for advanced reasoning",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c3",
+    "toolId": "midjourney",
+    "code": "MJFREE2",
+    "description": "Midjourney Annual - Get 2 Months Free for unlimited AI art",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c4",
+    "toolId": "copilot",
+    "code": "STUDENT",
+    "description": "GitHub Copilot - Free for verified students and educators",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c5",
+    "toolId": "notion-ai",
+    "code": "TEAMAI40",
+    "description": "Notion AI Team Plan - 40% Off for enhanced productivity",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c6",
+    "toolId": "dall-e",
+    "code": "BONUS25",
+    "description": "DALL-E Credits - Get 25% Bonus credits on any purchase",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c7",
+    "toolId": "grammarly",
+    "code": "WRITE3FREE",
+    "description": "Grammarly Premium - 3 Months Free writing enhancement",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c8",
+    "toolId": "jasper",
+    "code": "BOSS50",
+    "description": "Jasper Boss Mode - 50% Off unlimited content creation",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c9",
+    "toolId": "stable-diffusion",
+    "code": "STABLE100",
+    "description": "Stability AI API - $100 Free Credits for developers",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c10",
+    "toolId": "perplexity",
+    "code": "SEARCH1FREE",
+    "description": "Perplexity Pro - 1 Month Free unlimited AI search",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c11",
+    "toolId": "runway-ml",
+    "code": "VIDEO20",
+    "description": "Runway Unlimited - 20% Off video generation and editing",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c12",
+    "toolId": "elevenlabs",
+    "code": "VOICE35",
+    "description": "ElevenLabs Creator - 35% Off professional voice synthesis",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c13",
+    "toolId": "copy-ai",
+    "code": "COPY7FREE",
+    "description": "Copy.ai Pro - 7 Days Free Trial for AI copywriting",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c14",
+    "toolId": "synthesia",
+    "code": "AVATAR25",
+    "description": "Synthesia Business - 25% Off AI avatar videos",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c15",
+    "toolId": "tome",
+    "code": "STORY2FREE",
+    "description": "Tome Pro - 2 Months Free AI storytelling platform",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c16",
+    "toolId": "murf",
+    "code": "ENTERPRISE30",
+    "description": "Murf Enterprise - 30% Off voiceover generation at scale",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c17",
+    "toolId": "beautiful-ai",
+    "code": "TEAM45",
+    "description": "Beautiful.AI Team - 45% Off collaborative presentations",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c18",
+    "toolId": "descript",
+    "code": "CREATE1FREE",
+    "description": "Descript Creator - 1 Month Free AI audio/video editing",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c19",
+    "toolId": "otter-ai",
+    "code": "MEETING40",
+    "description": "Otter.ai Business - 40% Off meeting transcription",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c20",
+    "toolId": "canva-ai",
+    "code": "DESIGN50",
+    "description": "Canva for Teams - 50% Off AI-powered design tools",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c21",
+    "toolId": "writesonic",
+    "code": "UNLIMITED35",
+    "description": "Writesonic Unlimited - 35% Off unlimited AI content",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c22",
+    "toolId": "figma-ai",
+    "code": "FIGMA3FREE",
+    "description": "Figma Professional - 3 Months Free AI design features",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c23",
+    "toolId": "rytr",
+    "code": "WRITE60",
+    "description": "Rytr Unlimited - 60% Off affordable AI writing",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c24",
+    "toolId": "adobe-firefly",
+    "code": "FIREFLY100",
+    "description": "Adobe Firefly - 100 Free Credits for Creative Cloud",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c25",
+    "toolId": "loom-ai",
+    "code": "LOOM25",
+    "description": "Loom Business - 25% Off AI video messaging",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c26",
+    "toolId": "wordtune",
+    "code": "TUNE14FREE",
+    "description": "Wordtune Premium - 14 Days Free text enhancement",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c27",
+    "toolId": "gamma",
+    "code": "GAMMA30",
+    "description": "Gamma Plus - 30% Off AI document creation",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c28",
+    "toolId": "uizard",
+    "code": "DESIGN2FREE",
+    "description": "Uizard Pro - 2 Months Free UI/UX design AI",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c29",
+    "toolId": "quillbot",
+    "code": "QUILL50",
+    "description": "QuillBot Premium - 50% Off paraphrasing tools",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c30",
+    "toolId": "framer-ai",
+    "code": "FRAME1FREE",
+    "description": "Framer Pro - 1 Month Free AI web design",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c31",
+    "toolId": "research-rabbit",
+    "code": "RESEARCH3",
+    "description": "ResearchRabbit Premium - 3 Months Free research discovery",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c32",
+    "toolId": "hemingway-ai",
+    "code": "WRITE40",
+    "description": "Hemingway Editor Plus - 40% Off readability improvement",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c33",
+    "toolId": "webflow-ai",
+    "code": "WEBFLOW20",
+    "description": "Webflow Workspace - 20% Off AI web design",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c34",
+    "toolId": "elicit",
+    "code": "ELICIT1FREE",
+    "description": "Elicit Plus - 1 Month Free academic research AI",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c35",
+    "toolId": "lex",
+    "code": "LEX45",
+    "description": "Lex Premium - 45% Off creative writing platform",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c36",
+    "toolId": "consensus",
+    "code": "SCIENCE30",
+    "description": "Consensus Pro - 30% Off scientific literature search",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c37",
+    "toolId": "sudowrite",
+    "code": "FICTION25",
+    "description": "Sudowrite Max - 25% Off creative fiction writing",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c38",
+    "toolId": "scite",
+    "code": "CITE35",
+    "description": "Scite Premium - 35% Off citation analysis",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c39",
+    "toolId": "novel-ai",
+    "code": "NOVEL2FREE",
+    "description": "NovelAI Opus - 2 Months Free AI storytelling",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c40",
+    "toolId": "claude-instant",
+    "code": "INSTANT50",
+    "description": "Claude Instant API - $50 Free Credits for developers",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c41",
+    "toolId": "bard",
+    "code": "BARDPRO",
+    "description": "Bard Advanced - Early Access to premium features",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c42",
+    "toolId": "character-ai",
+    "code": "CHAR50",
+    "description": "Character.AI Plus - 50% Off character interactions",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c43",
+    "toolId": "replika",
+    "code": "COMPANION1",
+    "description": "Replika Pro - 1 Month Free AI companion features",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c44",
+    "toolId": "poe",
+    "code": "POE30",
+    "description": "Poe Subscription - 30% Off multi-AI platform access",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c45",
+    "toolId": "huggingface",
+    "code": "HUGGING40",
+    "description": "Hugging Face Pro - 40% Off model hosting",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c46",
+    "toolId": "replit-ai",
+    "code": "HACK3FREE",
+    "description": "Replit Hacker Plan - 3 Months Free coding environment",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c47",
+    "toolId": "codeium",
+    "code": "CODE60",
+    "description": "Codeium Pro - 60% Off AI coding assistance",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c48",
+    "toolId": "tabnine",
+    "code": "TAB25",
+    "description": "Tabnine Enterprise - 25% Off personalized AI coding",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c49",
+    "toolId": "cursor",
+    "code": "CURSOR1FREE",
+    "description": "Cursor Pro - 1 Month Free AI code editor",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c50",
+    "toolId": "cody",
+    "code": "CODY35",
+    "description": "Cody Enterprise - 35% Off context-aware coding",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c51",
+    "toolId": "amazon-codewhisperer",
+    "code": "AWSFREE",
+    "description": "AWS CodeWhisperer - Free Tier for individual use",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c52",
+    "toolId": "openai-api",
+    "code": "OPENAI100",
+    "description": "OpenAI API - $100 Free Credits for new developers",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c53",
+    "toolId": "blackbox-ai",
+    "code": "BLACKBOX45",
+    "description": "Blackbox Premium - 45% Off code search and generation",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c54",
+    "toolId": "teachable-machine",
+    "code": "TEACHFREE",
+    "description": "Teachable Machine Pro - Free Access to enhanced ML training",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c55",
+    "toolId": "runway-ml-training",
+    "code": "TRAIN200",
+    "description": "Runway Training - $200 Free Credits for custom models",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c56",
+    "toolId": "lobe",
+    "code": "LOBE50",
+    "description": "Lobe Premium - 50% Off visual ML training",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c57",
+    "toolId": "obviously-ai",
+    "code": "OBVIOUS30",
+    "description": "Obviously AI Pro - 30% Off no-code machine learning",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c58",
+    "toolId": "dataiku",
+    "code": "STARTUP90",
+    "description": "Dataiku Startup Program - 90% Off for qualified startups",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c59",
+    "toolId": "h2o-ai-platform",
+    "code": "H2OTRIAL",
+    "description": "H2O.ai Enterprise - 30-Day Free Trial",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c60",
+    "toolId": "autogpt",
+    "code": "AUTOCLOUD",
+    "description": "AutoGPT Cloud - Early Access to hosted platform",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c61",
+    "toolId": "babyagi",
+    "code": "BABYBETA",
+    "description": "BabyAGI Hosted - Beta Access to managed service",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c62",
+    "toolId": "langchain",
+    "code": "LANGFREE",
+    "description": "LangChain Plus - Free Developer Credits for debugging",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c63",
+    "toolId": "zapier-ai",
+    "code": "ZAPFREE",
+    "description": "Zapier ChatGPT Plugin - Free access to 5000+ app integrations",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c64",
+    "toolId": "make-ai",
+    "code": "MAKE40",
+    "description": "Make Premium - 40% Off advanced automation scenarios",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c65",
+    "toolId": "microsoft-power-automate",
+    "code": "POWERTRIAL",
+    "description": "Power Automate Premium - 90-Day Free Trial",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c66",
+    "toolId": "uipath-ai",
+    "code": "UIFREE",
+    "description": "UiPath Community Edition - Free RPA for small teams",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c67",
+    "toolId": "automation-anywhere",
+    "code": "AA30TRIAL",
+    "description": "Automation Anywhere - 30-Day Enterprise Trial",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c68",
+    "toolId": "blue-prism",
+    "code": "BLUELEARN",
+    "description": "Blue Prism Learning Edition - Free Educational Access",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c69",
+    "toolId": "anthropic-api",
+    "code": "ANTHROPIC50",
+    "description": "Anthropic API - $50 Free Credits for ethical AI development",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c70",
+    "toolId": "cohere-api",
+    "code": "COHERETRIAL",
+    "description": "Cohere API - Free Trial for multilingual NLP",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c71",
+    "toolId": "stability-ai-api",
+    "code": "STABLE75",
+    "description": "Stability AI API - $75 Free Credits for image generation",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c72",
+    "toolId": "replicate-api",
+    "code": "REPLICATE25",
+    "description": "Replicate - $25 Free Credits for model hosting",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c73",
+    "toolId": "pinecone",
+    "code": "PINE3FREE",
+    "description": "Pinecone Starter - 3 Months Free vector database",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c74",
+    "toolId": "weaviate",
+    "code": "WEAVIATEFREE",
+    "description": "Weaviate Cloud - Free Tier for managed vector database",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c75",
+    "toolId": "chroma",
+    "code": "CHROMABETA",
+    "description": "Chroma Hosting - Beta Access to managed hosting",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c76",
+    "toolId": "qdrant",
+    "code": "QDRANTFREE",
+    "description": "Qdrant Cloud - Free Cluster for vector search",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c77",
+    "toolId": "gpt-4-turbo",
+    "code": "GPT4EARLY",
+    "description": "GPT-4 Turbo - Early Access to latest model capabilities",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c78",
+    "toolId": "gemini-pro",
+    "code": "GEMINIFREE",
+    "description": "Gemini Pro API - Free Tier for Google's advanced AI",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c79",
+    "toolId": "claude-3-opus",
+    "code": "OPUS100",
+    "description": "Claude 3 Opus - $100 Free Credits for reasoning model",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c80",
+    "toolId": "llama-2-70b",
+    "code": "LLAMA2FREE",
+    "description": "Llama 2 Hosting - Free Tier for open-source model",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c81",
+    "toolId": "mixtral-8x7b",
+    "code": "MIXTRALBETA",
+    "description": "Mixtral API - Beta Access to mixture of experts model",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c82",
+    "toolId": "palm-2",
+    "code": "PALM50",
+    "description": "PaLM 2 API - $50 Free Credits for Google's production AI",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c83",
+    "toolId": "gpt-3.5-turbo",
+    "code": "GPT35BULK",
+    "description": "GPT-3.5 Turbo - Volume Discounts for high usage",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c84",
+    "toolId": "claude-2",
+    "code": "CLAUDE100K",
+    "description": "Claude 2 - Extended Access to 100K context window",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c85",
+    "toolId": "codellama-34b",
+    "code": "CODELAMAFREE",
+    "description": "CodeLlama Hosting - Free Tier for open-source coding",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c86",
+    "toolId": "vicuna-33b",
+    "code": "VICUNAFREE",
+    "description": "Vicuna API - Free Community Access to trained model",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c87",
+    "toolId": "alpaca-7b",
+    "code": "ALPACAFREE",
+    "description": "Alpaca Inference - Free Hosting for efficient model",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c88",
+    "toolId": "falcon-40b",
+    "code": "FALCONBETA",
+    "description": "Falcon API - Beta Access to multilingual open model",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c89",
+    "toolId": "mpt-30b",
+    "code": "MPT50",
+    "description": "MPT Commercial License - 50% Off commercial use",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c90",
+    "toolId": "dolly-v2",
+    "code": "DOLLYFREE",
+    "description": "Dolly v2 - Free Hosting for open instruction model",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c91",
+    "toolId": "stablelm-7b",
+    "code": "STABLELMFREE",
+    "description": "StableLM API - Free Tier for lightweight model",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c92",
+    "toolId": "openchat-7b",
+    "code": "OPENCHATFREE",
+    "description": "OpenChat Hosting - Community Tier for conversation model",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c93",
+    "toolId": "wizard-coder-15b",
+    "code": "WIZARDDEV",
+    "description": "WizardCoder API - Developer Access to coding model",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c94",
+    "toolId": "phind-codellama-34b",
+    "code": "PHIND30",
+    "description": "Phind CodeLlama Pro - 30% Off search-enhanced coding",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c95",
+    "toolId": "sqlcoder-7b",
+    "code": "SQLTRIAL",
+    "description": "SQLCoder Enterprise - Free Trial for database queries",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c96",
+    "toolId": "deepseek-coder-33b",
+    "code": "DEEPSEEKBETA",
+    "description": "DeepSeek Coder API - Beta Access to advanced coding",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c97",
+    "toolId": "starcode-15b",
+    "code": "STARFREE",
+    "description": "StarCode Hosting - Free Tier for code completion",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c98",
+    "toolId": "replit-code-v1",
+    "code": "REPLCODE25",
+    "description": "Replit Code Premium - 25% Off integrated development",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c99",
+    "toolId": "codegen-16b",
+    "code": "CODEGENFREE",
+    "description": "CodeGen Legacy - Free Access to pioneer code model",
+    "expiry": "2024-12-31"
+  },
+  {
+    "id": "c100",
+    "toolId": "openai-codex",
+    "code": "CODEXAPI",
+    "description": "OpenAI Codex - Special API Access for code generation",
+    "expiry": "2024-12-31"
+  }
+]

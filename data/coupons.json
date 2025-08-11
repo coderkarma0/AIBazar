@@ -1,0 +1,23 @@
+[
+  {
+    "id": "c1",
+    "toolId": "chatgpt",
+    "code": "GPT20OFF",
+    "description": "Get 20% off ChatGPT Plus subscription",
+    "expiry": "2025-12-31"
+  },
+  {
+    "id": "c2",
+    "toolId": "midjourney",
+    "code": "MIDJ15",
+    "description": "15% discount on Midjourney monthly plan",
+    "expiry": "2025-11-15"
+  },
+  {
+    "id": "c3",
+    "toolId": "notion-ai",
+    "code": "NOTION10",
+    "description": "Save 10% on Notion AI annual subscription",
+    "expiry": "2025-10-01"
+  }
+]

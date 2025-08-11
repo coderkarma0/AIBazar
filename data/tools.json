@@ -1,0 +1,50 @@
+[
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "category": "Conversational AI",
+    "description": "An advanced conversational AI model that can assist with writing, coding, learning, and more.",
+    "bestPractices": [
+      "Be specific with your prompts for better results.",
+      "Break complex tasks into smaller instructions.",
+      "Use system messages to set context."
+    ],
+    "suggestedPrompts": [
+      "Explain quantum computing in simple terms.",
+      "Write a blog post outline about AI in healthcare.",
+      "Generate test cases for a login form."
+    ]
+  },
+  {
+    "id": "midjourney",
+    "name": "Midjourney",
+    "category": "AI Art",
+    "description": "An AI tool for generating high-quality images from text prompts.",
+    "bestPractices": [
+      "Use descriptive language for better visuals.",
+      "Experiment with styles and aspect ratios.",
+      "Combine multiple concepts for creative results."
+    ],
+    "suggestedPrompts": [
+      "A futuristic city skyline at sunset, cyberpunk style.",
+      "Portrait of a medieval knight in oil painting style.",
+      "Underwater coral reef with glowing fish."
+    ]
+  },
+  {
+    "id": "notion-ai",
+    "name": "Notion AI",
+    "category": "Productivity",
+    "description": "An AI assistant built into Notion for summarizing, brainstorming, and writing content.",
+    "bestPractices": [
+      "Highlight text before using the summarize feature.",
+      "Use AI to generate outlines before writing.",
+      "Ask AI to rephrase content for clarity."
+    ],
+    "suggestedPrompts": [
+      "Summarize meeting notes into action points.",
+      "Create a weekly content calendar for social media.",
+      "Brainstorm project ideas for a fintech startup."
+    ]
+  }
+]

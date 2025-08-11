@@ -1,0 +1,1625 @@
+[
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "category": "Conversational AI",
+    "description": "An advanced conversational AI model that can assist with writing, coding, learning, and more.",
+    "bestPractices": [
+      "Be specific with your prompts for better results.",
+      "Break complex tasks into smaller instructions.",
+      "Use system messages to set context."
+    ],
+    "suggestedPrompts": [
+      "Explain quantum computing in simple terms.",
+      "Write a blog post outline about AI in healthcare.",
+      "Generate test cases for a login form."
+    ]
+  },
+  {
+    "id": "midjourney",
+    "name": "Midjourney",
+    "category": "AI Art",
+    "description": "An AI tool for generating high-quality images from text prompts.",
+    "bestPractices": [
+      "Use descriptive language for better visuals.",
+      "Experiment with styles and aspect ratios.",
+      "Combine multiple concepts for creative results."
+    ],
+    "suggestedPrompts": [
+      "A futuristic city skyline at sunset, cyberpunk style.",
+      "Portrait of a medieval knight in oil painting style.",
+      "Underwater coral reef with glowing fish."
+    ]
+  },
+  {
+    "id": "notion-ai",
+    "name": "Notion AI",
+    "category": "Productivity",
+    "description": "An AI assistant built into Notion for summarizing, brainstorming, and writing content.",
+    "bestPractices": [
+      "Highlight text before using the summarize feature.",
+      "Use AI to generate outlines before writing.",
+      "Ask AI to rephrase content for clarity."
+    ],
+    "suggestedPrompts": [
+      "Summarize meeting notes into action points.",
+      "Create a weekly content calendar for social media.",
+      "Brainstorm project ideas for a fintech startup."
+    ]
+  },
+  {
+    "id": "claude",
+    "name": "Claude",
+    "category": "Conversational AI",
+    "description": "Anthropic's AI assistant focused on being helpful, harmless, and honest.",
+    "bestPractices": [
+      "Provide clear context for complex tasks.",
+      "Use Claude for analysis and reasoning tasks.",
+      "Ask for explanations of its reasoning process."
+    ],
+    "suggestedPrompts": [
+      "Analyze this business plan and suggest improvements.",
+      "Help me understand the ethical implications of AI.",
+      "Create a structured approach to learning Python."
+    ]
+  },
+  {
+    "id": "copilot",
+    "name": "GitHub Copilot",
+    "category": "Programming",
+    "description": "AI pair programmer that helps you write code faster with AI-powered suggestions.",
+    "bestPractices": [
+      "Write clear comments to guide code generation.",
+      "Review and test all generated code.",
+      "Use meaningful variable and function names."
+    ],
+    "suggestedPrompts": [
+      "// Function to validate email format",
+      "// Create a REST API endpoint for user authentication",
+      "// Implement binary search algorithm"
+    ]
+  },
+  {
+    "id": "dall-e",
+    "name": "DALL-E 3",
+    "category": "AI Art",
+    "description": "OpenAI's image generation model that creates images from detailed text descriptions.",
+    "bestPractices": [
+      "Be specific about style and composition.",
+      "Include lighting and mood descriptions.",
+      "Experiment with artistic styles and mediums."
+    ],
+    "suggestedPrompts": [
+      "A serene Japanese garden in watercolor style.",
+      "Steampunk robot reading a book in a library.",
+      "Abstract representation of musical harmony."
+    ]
+  },
+  {
+    "id": "stable-diffusion",
+    "name": "Stable Diffusion",
+    "category": "AI Art",
+    "description": "Open-source AI model for generating detailed images from text descriptions.",
+    "bestPractices": [
+      "Use negative prompts to avoid unwanted elements.",
+      "Adjust sampling steps for quality vs speed.",
+      "Experiment with different models and styles."
+    ],
+    "suggestedPrompts": [
+      "Photorealistic portrait of a space explorer.",
+      "Fantasy landscape with floating islands.",
+      "Minimalist logo design for a tech startup."
+    ]
+  },
+  {
+    "id": "runway-ml",
+    "name": "Runway ML",
+    "category": "Video Generation",
+    "description": "AI-powered creative suite for video editing, generation, and enhancement.",
+    "bestPractices": [
+      "Upload high-quality source materials.",
+      "Use clear, descriptive prompts for video generation.",
+      "Experiment with different AI models for various effects."
+    ],
+    "suggestedPrompts": [
+      "Transform this image into a moving watercolor painting.",
+      "Generate a short video of waves crashing on a beach.",
+      "Remove the background from this video clip."
+    ]
+  },
+  {
+    "id": "jasper",
+    "name": "Jasper AI",
+    "category": "Content Writing",
+    "description": "AI writing assistant for marketing copy, blog posts, and creative content.",
+    "bestPractices": [
+      "Provide detailed briefs for better outputs.",
+      "Use brand voice settings for consistency.",
+      "Edit and fact-check all AI-generated content."
+    ],
+    "suggestedPrompts": [
+      "Write a compelling product description for wireless headphones.",
+      "Create a social media campaign for a new fitness app.",
+      "Draft an email newsletter about sustainable living."
+    ]
+  },
+  {
+    "id": "copy-ai",
+    "name": "Copy.ai",
+    "category": "Content Writing",
+    "description": "AI-powered copywriting tool for marketing, sales, and content creation.",
+    "bestPractices": [
+      "Define your target audience clearly.",
+      "Use specific templates for different content types.",
+      "Test multiple variations for optimal results."
+    ],
+    "suggestedPrompts": [
+      "Write a Facebook ad for a productivity app.",
+      "Create a landing page headline for an online course.",
+      "Generate blog post ideas for digital marketing."
+    ]
+  },
+  {
+    "id": "grammarly",
+    "name": "Grammarly",
+    "category": "Writing Assistant",
+    "description": "AI-powered writing assistant that checks grammar, style, and tone.",
+    "bestPractices": [
+      "Set appropriate tone and audience settings.",
+      "Review suggestions carefully before accepting.",
+      "Use for both writing improvement and learning."
+    ],
+    "suggestedPrompts": [
+      "Check this email for professional tone.",
+      "Improve the clarity of this technical document.",
+      "Suggest better word choices for this creative writing."
+    ]
+  },
+  {
+    "id": "synthesia",
+    "name": "Synthesia",
+    "category": "Video Generation",
+    "description": "AI video platform that creates professional videos with AI avatars.",
+    "bestPractices": [
+      "Write clear, natural-sounding scripts.",
+      "Choose appropriate avatars for your audience.",
+      "Use good lighting and background settings."
+    ],
+    "suggestedPrompts": [
+      "Create a training video about cybersecurity.",
+      "Generate a product demo for our new software.",
+      "Make an educational video about renewable energy."
+    ]
+  },
+  {
+    "id": "murf",
+    "name": "Murf AI",
+    "category": "Voice Generation",
+    "description": "AI voice generator for creating realistic voiceovers and narrations.",
+    "bestPractices": [
+      "Choose voices that match your content tone.",
+      "Add pauses and emphasis for natural flow.",
+      "Test different speeds and pronunciations."
+    ],
+    "suggestedPrompts": [
+      "Create a calm narration for a meditation app.",
+      "Generate an energetic voiceover for a sports commercial.",
+      "Produce a professional announcement for a conference."
+    ]
+  },
+  {
+    "id": "elevenlabs",
+    "name": "ElevenLabs",
+    "category": "Voice Generation",
+    "description": "Advanced AI voice synthesis with realistic and customizable voices.",
+    "bestPractices": [
+      "Use high-quality text input for best results.",
+      "Experiment with voice settings and emotions.",
+      "Consider ethical implications of voice cloning."
+    ],
+    "suggestedPrompts": [
+      "Generate a storytelling voice for children's audiobooks.",
+      "Create a documentary narrator voice.",
+      "Produce multilingual voiceovers for global content."
+    ]
+  },
+  {
+    "id": "loom-ai",
+    "name": "Loom AI",
+    "category": "Video Enhancement",
+    "description": "AI-powered features in Loom for automatic transcription and video summaries.",
+    "bestPractices": [
+      "Speak clearly for better transcription accuracy.",
+      "Use good lighting and audio quality.",
+      "Review AI-generated summaries for accuracy."
+    ],
+    "suggestedPrompts": [
+      "Summarize this product demo video.",
+      "Generate captions for this training session.",
+      "Create bullet points from this meeting recording."
+    ]
+  },
+  {
+    "id": "descript",
+    "name": "Descript",
+    "category": "Audio/Video Editing",
+    "description": "AI-powered audio and video editor with text-based editing capabilities.",
+    "bestPractices": [
+      "Upload high-quality audio for better transcription.",
+      "Use overdub feature sparingly and ethically.",
+      "Review edits in both text and timeline views."
+    ],
+    "suggestedPrompts": [
+      "Remove filler words from this podcast episode.",
+      "Create a short clip from this long interview.",
+      "Generate a transcript and edit out sensitive information."
+    ]
+  },
+  {
+    "id": "otter-ai",
+    "name": "Otter.ai",
+    "category": "Transcription",
+    "description": "AI-powered meeting transcription and note-taking assistant.",
+    "bestPractices": [
+      "Ensure good audio quality for meetings.",
+      "Review and edit transcripts for accuracy.",
+      "Use speaker identification features."
+    ],
+    "suggestedPrompts": [
+      "Transcribe this sales call and identify action items.",
+      "Generate meeting notes with key decisions.",
+      "Create a summary of this brainstorming session."
+    ]
+  },
+  {
+    "id": "tome",
+    "name": "Tome",
+    "category": "Presentation",
+    "description": "AI-powered storytelling platform for creating presentations and documents.",
+    "bestPractices": [
+      "Provide clear outline and objectives.",
+      "Use high-quality images and media.",
+      "Customize templates to match your brand."
+    ],
+    "suggestedPrompts": [
+      "Create a pitch deck for a sustainable tech startup.",
+      "Generate a product roadmap presentation.",
+      "Build an onboarding guide for new employees."
+    ]
+  },
+  {
+    "id": "beautiful-ai",
+    "name": "Beautiful.AI",
+    "category": "Presentation",
+    "description": "AI-powered presentation software with smart design assistance.",
+    "bestPractices": [
+      "Start with appropriate templates for your content.",
+      "Use consistent color schemes and fonts.",
+      "Let AI handle layout while you focus on content."
+    ],
+    "suggestedPrompts": [
+      "Design a quarterly business review presentation.",
+      "Create slides for a technical product demo.",
+      "Build a training presentation about team collaboration."
+    ]
+  },
+  {
+    "id": "canva-ai",
+    "name": "Canva AI",
+    "category": "Design",
+    "description": "AI-powered design tools within Canva for creating graphics and layouts.",
+    "bestPractices": [
+      "Use brand kit for consistent styling.",
+      "Experiment with AI-generated design variations.",
+      "Combine AI suggestions with manual adjustments."
+    ],
+    "suggestedPrompts": [
+      "Create a social media post about Earth Day.",
+      "Design a flyer for a local music festival.",
+      "Generate a logo for a coffee shop startup."
+    ]
+  },
+  {
+    "id": "figma-ai",
+    "name": "Figma AI",
+    "category": "Design",
+    "description": "AI features in Figma for automated design tasks and content generation.",
+    "bestPractices": [
+      "Use AI for rapid prototyping and iteration.",
+      "Generate placeholder content for designs.",
+      "Automate repetitive design tasks."
+    ],
+    "suggestedPrompts": [
+      "Generate user interface components for a mobile app.",
+      "Create placeholder text for a website mockup.",
+      "Suggest color palette for a wellness brand."
+    ]
+  },
+  {
+    "id": "adobe-firefly",
+    "name": "Adobe Firefly",
+    "category": "Creative AI",
+    "description": "Adobe's AI-powered creative tools for image generation and editing.",
+    "bestPractices": [
+      "Use high-resolution source images.",
+      "Be specific about desired styles and effects.",
+      "Combine AI generation with traditional editing."
+    ],
+    "suggestedPrompts": [
+      "Generate texture fills for this design element.",
+      "Create variations of this product image.",
+      "Add realistic shadows to this composite image."
+    ]
+  },
+  {
+    "id": "uizard",
+    "name": "Uizard",
+    "category": "UI/UX Design",
+    "description": "AI-powered tool for creating UI designs and prototypes from sketches or text.",
+    "bestPractices": [
+      "Start with clear wireframes or descriptions.",
+      "Iterate on AI-generated designs.",
+      "Test prototypes with real users."
+    ],
+    "suggestedPrompts": [
+      "Create a mobile app interface for food delivery.",
+      "Design a dashboard for project management software.",
+      "Generate wireframes for an e-commerce website."
+    ]
+  },
+  {
+    "id": "framer-ai",
+    "name": "Framer AI",
+    "category": "Web Design",
+    "description": "AI-powered website builder with advanced design and animation capabilities.",
+    "bestPractices": [
+      "Use AI for initial layout generation.",
+      "Customize animations and interactions.",
+      "Optimize for mobile responsiveness."
+    ],
+    "suggestedPrompts": [
+      "Create a landing page for a SaaS product.",
+      "Design a portfolio website for a photographer.",
+      "Build an e-commerce site for handmade jewelry."
+    ]
+  },
+  {
+    "id": "webflow-ai",
+    "name": "Webflow AI",
+    "category": "Web Design",
+    "description": "AI features in Webflow for automated design and content generation.",
+    "bestPractices": [
+      "Use AI for rapid prototyping.",
+      "Generate content that matches your brand voice.",
+      "Optimize for SEO and performance."
+    ],
+    "suggestedPrompts": [
+      "Generate website copy for a fitness studio.",
+      "Create layout variations for a blog page.",
+      "Optimize this design for mobile devices."
+    ]
+  },
+  {
+    "id": "gamma",
+    "name": "Gamma",
+    "category": "Presentation",
+    "description": "AI-powered platform for creating presentations, documents, and web pages.",
+    "bestPractices": [
+      "Provide detailed content outlines.",
+      "Use AI suggestions as starting points.",
+      "Customize design to match your brand."
+    ],
+    "suggestedPrompts": [
+      "Create a market analysis presentation.",
+      "Generate a product launch announcement.",
+      "Build a team retrospective document."
+    ]
+  },
+  {
+    "id": "perplexity",
+    "name": "Perplexity AI",
+    "category": "Search & Research",
+    "description": "AI-powered search engine that provides conversational answers with sources.",
+    "bestPractices": [
+      "Ask specific, well-defined questions.",
+      "Verify information from multiple sources.",
+      "Use follow-up questions for deeper insights."
+    ],
+    "suggestedPrompts": [
+      "What are the latest developments in quantum computing?",
+      "Compare renewable energy options for residential use.",
+      "Explain the current state of AI regulation globally."
+    ]
+  },
+  {
+    "id": "research-rabbit",
+    "name": "ResearchRabbit",
+    "category": "Research",
+    "description": "AI-powered research tool for discovering and organizing academic papers.",
+    "bestPractices": [
+      "Start with high-quality seed papers.",
+      "Use collections to organize research topics.",
+      "Explore recommendations and citations."
+    ],
+    "suggestedPrompts": [
+      "Find papers related to machine learning in healthcare.",
+      "Discover recent research on climate change mitigation.",
+      "Explore studies about remote work productivity."
+    ]
+  },
+  {
+    "id": "elicit",
+    "name": "Elicit",
+    "category": "Research",
+    "description": "AI research assistant that helps with literature reviews and research questions.",
+    "bestPractices": [
+      "Frame research questions clearly.",
+      "Use specific keywords and concepts.",
+      "Review and verify AI-generated insights."
+    ],
+    "suggestedPrompts": [
+      "What factors influence employee engagement in remote work?",
+      "How effective are different meditation techniques for anxiety?",
+      "What are the environmental impacts of electric vehicles?"
+    ]
+  },
+  {
+    "id": "consensus",
+    "name": "Consensus",
+    "category": "Research",
+    "description": "AI-powered search engine for scientific research and evidence-based answers.",
+    "bestPractices": [
+      "Ask research-based questions.",
+      "Focus on topics with scientific literature.",
+      "Use results to guide further research."
+    ],
+    "suggestedPrompts": [
+      "Does intermittent fasting have health benefits?",
+      "What is the effectiveness of mindfulness meditation?",
+      "How does exercise impact cognitive function?"
+    ]
+  },
+  {
+    "id": "scite",
+    "name": "Scite",
+    "category": "Research",
+    "description": "AI tool that shows how scientific papers have been cited and supported.",
+    "bestPractices": [
+      "Use to verify research claims.",
+      "Check citation context and supporting evidence.",
+      "Explore contradictory findings."
+    ],
+    "suggestedPrompts": [
+      "How well-supported are the claims in this climate study?",
+      "Find papers that contradict this medical research.",
+      "Check the reliability of this psychological study."
+    ]
+  },
+  {
+    "id": "writesonic",
+    "name": "Writesonic",
+    "category": "Content Writing",
+    "description": "AI writing platform for creating marketing copy, articles, and content.",
+    "bestPractices": [
+      "Provide detailed briefs and context.",
+      "Use appropriate tone and style settings.",
+      "Edit and personalize AI-generated content."
+    ],
+    "suggestedPrompts": [
+      "Write a blog post about sustainable fashion trends.",
+      "Create ad copy for a new productivity app.",
+      "Generate product descriptions for an online store."
+    ]
+  },
+  {
+    "id": "rytr",
+    "name": "Rytr",
+    "category": "Content Writing",
+    "description": "AI writing assistant for creating various types of content quickly.",
+    "bestPractices": [
+      "Select appropriate use cases and tones.",
+      "Provide context and key information.",
+      "Review and refine generated content."
+    ],
+    "suggestedPrompts": [
+      "Write a professional email to potential clients.",
+      "Create social media captions for a travel brand.",
+      "Generate a press release for a product launch."
+    ]
+  },
+  {
+    "id": "wordtune",
+    "name": "Wordtune",
+    "category": "Writing Assistant",
+    "description": "AI tool that helps rewrite and improve text for clarity and style.",
+    "bestPractices": [
+      "Use for improving existing text.",
+      "Try multiple rewrite suggestions.",
+      "Maintain your original voice and intent."
+    ],
+    "suggestedPrompts": [
+      "Make this technical explanation more accessible.",
+      "Improve the flow of this presentation script.",
+      "Rewrite this email to sound more professional."
+    ]
+  },
+  {
+    "id": "quillbot",
+    "name": "QuillBot",
+    "category": "Writing Assistant",
+    "description": "AI-powered paraphrasing and writing enhancement tool.",
+    "bestPractices": [
+      "Use different modes for various purposes.",
+      "Combine with grammar checking tools.",
+      "Review paraphrased content for accuracy."
+    ],
+    "suggestedPrompts": [
+      "Paraphrase this research summary.",
+      "Make this text more concise and clear.",
+      "Rewrite this content to avoid plagiarism."
+    ]
+  },
+  {
+    "id": "hemingway-ai",
+    "name": "Hemingway Editor",
+    "category": "Writing Assistant",
+    "description": "AI-powered editor that makes writing bold and clear.",
+    "bestPractices": [
+      "Focus on readability improvements.",
+      "Simplify complex sentences.",
+      "Use active voice when possible."
+    ],
+    "suggestedPrompts": [
+      "Improve the readability of this blog post.",
+      "Make this technical document more accessible.",
+      "Simplify this marketing copy for broader appeal."
+    ]
+  },
+  {
+    "id": "lex",
+    "name": "Lex",
+    "category": "Writing Assistant",
+    "description": "AI-powered word processor designed for creative writers.",
+    "bestPractices": [
+      "Use AI assistance for overcoming writer's block.",
+      "Generate ideas and continue narratives.",
+      "Maintain creative control over content."
+    ],
+    "suggestedPrompts": [
+      "Continue this science fiction story plot.",
+      "Generate dialogue for these characters.",
+      "Suggest plot developments for this mystery novel."
+    ]
+  },
+  {
+    "id": "sudowrite",
+    "name": "Sudowrite",
+    "category": "Creative Writing",
+    "description": "AI writing tool specifically designed for creative fiction writing.",
+    "bestPractices": [
+      "Use for brainstorming and idea generation.",
+      "Generate character descriptions and scenes.",
+      "Maintain narrative consistency."
+    ],
+    "suggestedPrompts": [
+      "Describe a mysterious character entering a tavern.",
+      "Generate a twist ending for this short story.",
+      "Create dialogue between two conflicting characters."
+    ]
+  },
+  {
+    "id": "novel-ai",
+    "name": "NovelAI",
+    "category": "Creative Writing",
+    "description": "AI storytelling tool for creative writing and narrative generation.",
+    "bestPractices": [
+      "Set clear story parameters and style.",
+      "Use memory features for consistency.",
+      "Guide the AI with strategic prompts."
+    ],
+    "suggestedPrompts": [
+      "Write a fantasy adventure in a magical forest.",
+      "Create a cyberpunk detective story.",
+      "Generate a romantic comedy scene."
+    ]
+  },
+  {
+    "id": "claude-instant",
+    "name": "Claude Instant",
+    "category": "Conversational AI",
+    "description": "Faster, more affordable version of Claude for everyday tasks.",
+    "bestPractices": [
+      "Use for quick questions and tasks.",
+      "Provide clear, specific instructions.",
+      "Verify important information independently."
+    ],
+    "suggestedPrompts": [
+      "Summarize this news article in bullet points.",
+      "Explain the concept of blockchain simply.",
+      "Help me plan a week-long vacation itinerary."
+    ]
+  },
+  {
+    "id": "bard",
+    "name": "Google Bard",
+    "category": "Conversational AI",
+    "description": "Google's AI chatbot for conversational AI and information assistance.",
+    "bestPractices": [
+      "Use for research and information gathering.",
+      "Ask for multiple perspectives on topics.",
+      "Verify facts from reliable sources."
+    ],
+    "suggestedPrompts": [
+      "What are the pros and cons of remote work?",
+      "Explain the latest developments in space exploration.",
+      "Help me understand the basics of cryptocurrency."
+    ]
+  },
+  {
+    "id": "character-ai",
+    "name": "Character.AI",
+    "category": "Entertainment",
+    "description": "AI platform for creating and chatting with AI characters.",
+    "bestPractices": [
+      "Create detailed character backgrounds.",
+      "Maintain character consistency in conversations.",
+      "Use for creative writing and entertainment."
+    ],
+    "suggestedPrompts": [
+      "Have a philosophical discussion with Socrates.",
+      "Get writing advice from Shakespeare.",
+      "Chat with a fictional detective about solving mysteries."
+    ]
+  },
+  {
+    "id": "replika",
+    "name": "Replika",
+    "category": "Companion AI",
+    "description": "AI companion for emotional support and conversation.",
+    "bestPractices": [
+      "Be honest and open in conversations.",
+      "Use for emotional support and reflection.",
+      "Remember it's an AI, not a human therapist."
+    ],
+    "suggestedPrompts": [
+      "I'm feeling stressed about work lately.",
+      "Help me process my thoughts about a difficult decision.",
+      "Let's discuss healthy coping strategies."
+    ]
+  },
+  {
+    "id": "poe",
+    "name": "Poe by Quora",
+    "category": "AI Platform",
+    "description": "Platform providing access to multiple AI chatbots and models.",
+    "bestPractices": [
+      "Try different AI models for various tasks.",
+      "Compare responses from multiple AIs.",
+      "Use specialized bots for specific domains."
+    ],
+    "suggestedPrompts": [
+      "Compare different AI models' explanations of quantum physics.",
+      "Get creative writing feedback from multiple AIs.",
+      "Ask the same coding question to different programming assistants."
+    ]
+  },
+  {
+    "id": "huggingface",
+    "name": "Hugging Face",
+    "category": "AI Platform",
+    "description": "Platform for sharing and using open-source AI models and datasets.",
+    "bestPractices": [
+      "Explore different model types for specific tasks.",
+      "Read model cards for usage guidelines.",
+      "Consider computational requirements."
+    ],
+    "suggestedPrompts": [
+      "Find a sentiment analysis model for customer reviews.",
+      "Use a summarization model for long documents.",
+      "Test image classification models on custom data."
+    ]
+  },
+  {
+    "id": "replit-ai",
+    "name": "Replit AI",
+    "category": "Programming",
+    "description": "AI coding assistant integrated into the Replit development environment.",
+    "bestPractices": [
+      "Use for code completion and debugging.",
+      "Ask for explanations of complex code.",
+      "Test generated code thoroughly."
+    ],
+    "suggestedPrompts": [
+      "Create a Python function to sort a list of dictionaries.",
+      "Debug this JavaScript function that's not working.",
+      "Explain how this React component works."
+    ]
+  },
+  {
+    "id": "codeium",
+    "name": "Codeium",
+    "category": "Programming",
+    "description": "Free AI-powered code completion and assistance tool.",
+    "bestPractices": [
+      "Use across multiple programming languages.",
+      "Review suggestions before accepting.",
+      "Leverage for learning new coding patterns."
+    ],
+    "suggestedPrompts": [
+      "// Generate a REST API endpoint for user management",
+      "// Create a unit test for this function",
+      "// Implement error handling for this database query"
+    ]
+  },
+  {
+    "id": "tabnine",
+    "name": "Tabnine",
+    "category": "Programming",
+    "description": "AI code completion tool that learns from your coding patterns.",
+    "bestPractices": [
+      "Train on your codebase for better suggestions.",
+      "Use team models for consistent coding styles.",
+      "Balance AI assistance with manual coding skills."
+    ],
+    "suggestedPrompts": [
+      "// Function to validate user input data",
+      "// Create a responsive navigation component",
+      "// Implement caching mechanism for API calls"
+    ]
+  },
+  {
+    "id": "cursor",
+    "name": "Cursor",
+    "category": "Programming",
+    "description": "AI-powered code editor built for pair programming with AI.",
+    "bestPractices": [
+      "Use natural language to describe coding goals.",
+      "Leverage AI for refactoring and optimization.",
+      "Combine AI suggestions with best practices."
+    ],
+    "suggestedPrompts": [
+      "Help me refactor this component to use hooks.",
+      "Optimize this algorithm for better performance.",
+      "Add error handling to this async function."
+    ]
+  },
+  {
+    "id": "cody",
+    "name": "Sourcegraph Cody",
+    "category": "Programming",
+    "description": "AI coding assistant that understands your codebase context.",
+    "bestPractices": [
+      "Use codebase context for accurate suggestions.",
+      "Ask questions about existing code.",
+      "Generate tests based on implementation."
+    ],
+    "suggestedPrompts": [
+      "Explain how the authentication system works in this codebase.",
+      "Generate tests for the user service module.",
+      "How can I improve the performance of this database query?"
+    ]
+  },
+  {
+    "id": "amazon-codewhisperer",
+    "name": "Amazon CodeWhisperer",
+    "category": "Programming",
+    "description": "AI coding companion from Amazon for real-time code suggestions.",
+    "bestPractices": [
+      "Use for AWS service integration.",
+      "Follow security best practices suggestions.",
+      "Review generated code for vulnerabilities."
+    ],
+    "suggestedPrompts": [
+      "// Connect to AWS DynamoDB and query user data",
+      "// Implement Lambda function for image processing",
+      "// Create S3 bucket with proper security settings"
+    ]
+  },
+  {
+    "id": "openai-codex",
+    "name": "OpenAI Codex",
+    "category": "Programming",
+    "description": "AI system that translates natural language to code.",
+    "bestPractices": [
+      "Write clear, specific natural language descriptions.",
+      "Test and validate all generated code.",
+      "Use for learning new programming concepts."
+    ],
+    "suggestedPrompts": [
+      "Create a function that finds the longest common subsequence.",
+      "Write a script to analyze CSV files and generate reports.",
+      "Implement a binary search tree with insertion and deletion."
+    ]
+  },
+  {
+    "id": "blackbox-ai",
+    "name": "Blackbox AI",
+    "category": "Programming",
+    "description": "AI coding assistant for code generation and problem-solving.",
+    "bestPractices": [
+      "Use for quick code snippets and solutions.",
+      "Ask for explanations of coding concepts.",
+      "Generate boilerplate code for projects."
+    ],
+    "suggestedPrompts": [
+      "Create a login form with validation in React.",
+      "Generate a Python script for web scraping.",
+      "Implement a simple chat application in Node.js."
+    ]
+  },
+  {
+    "id": "teachable-machine",
+    "name": "Teachable Machine",
+    "category": "Machine Learning",
+    "description": "Google's tool for training custom machine learning models easily.",
+    "bestPractices": [
+      "Provide diverse training examples.",
+      "Test models with new data.",
+      "Use appropriate model types for your data."
+    ],
+    "suggestedPrompts": [
+      "Train a model to recognize different dog breeds.",
+      "Create an image classifier for plant diseases.",
+      "Build a sound recognition model for bird songs."
+    ]
+  },
+  {
+    "id": "runway-ml-training",
+    "name": "RunwayML Training",
+    "category": "Machine Learning",
+    "description": "Platform for training custom AI models for creative applications.",
+    "bestPractices": [
+      "Prepare high-quality training datasets.",
+      "Understand model limitations and biases.",
+      "Test models thoroughly before deployment."
+    ],
+    "suggestedPrompts": [
+      "Train a style transfer model with specific artwork.",
+      "Create a custom image generation model.",
+      "Build a video effects model for specific aesthetics."
+    ]
+  },
+  {
+    "id": "lobe",
+    "name": "Microsoft Lobe",
+    "category": "Machine Learning",
+    "description": "Visual tool for building machine learning models without code.",
+    "bestPractices": [
+      "Start with simple classification tasks.",
+      "Use balanced datasets for training.",
+      "Export models for integration into apps."
+    ],
+    "suggestedPrompts": [
+      "Create a model to classify customer feedback sentiment.",
+      "Build an image classifier for quality control.",
+      "Train a model to detect objects in security footage."
+    ]
+  },
+  {
+    "id": "obviously-ai",
+    "name": "Obviously AI",
+    "category": "Data Analysis",
+    "description": "No-code AI platform for building predictive models from data.",
+    "bestPractices": [
+      "Clean and prepare data before analysis.",
+      "Understand the business context of predictions.",
+      "Validate model performance with test data."
+    ],
+    "suggestedPrompts": [
+      "Predict customer churn based on usage patterns.",
+      "Forecast sales for the next quarter.",
+      "Analyze factors affecting employee retention."
+    ]
+  },
+  {
+    "id": "dataiku",
+    "name": "Dataiku",
+    "category": "Data Science",
+    "description": "Platform for data science and machine learning collaboration.",
+    "bestPractices": [
+      "Collaborate effectively with team members.",
+      "Document data pipelines and models.",
+      "Monitor model performance in production."
+    ],
+    "suggestedPrompts": [
+      "Build a recommendation system for e-commerce.",
+      "Create a fraud detection pipeline.",
+      "Analyze customer behavior patterns for marketing."
+    ]
+  },
+  {
+    "id": "h2o-ai-platform",
+    "name": "H2O.ai Platform",
+    "category": "Machine Learning",
+    "description": "Open-source platform for machine learning and AI applications.",
+    "bestPractices": [
+      "Use automated machine learning features.",
+      "Interpret model results carefully.",
+      "Scale models for production deployment."
+    ],
+    "suggestedPrompts": [
+      "Build an automated credit scoring model.",
+      "Create a time series forecasting model.",
+      "Develop a customer segmentation analysis."
+    ]
+  },
+  {
+    "id": "autogpt",
+    "name": "AutoGPT",
+    "category": "AI Agents",
+    "description": "Autonomous AI agent that can perform tasks with minimal supervision.",
+    "bestPractices": [
+      "Set clear, achievable goals for the agent.",
+      "Monitor agent activities for safety.",
+      "Use in controlled environments initially."
+    ],
+    "suggestedPrompts": [
+      "Research and compile a report on renewable energy trends.",
+      "Plan and organize a small conference event.",
+      "Analyze competitor websites and create a summary."
+    ]
+  },
+  {
+    "id": "babyagi",
+    "name": "BabyAGI",
+    "category": "AI Agents",
+    "description": "AI agent system that can break down tasks and execute them autonomously.",
+    "bestPractices": [
+      "Start with simple, well-defined objectives.",
+      "Review and approve critical decisions.",
+      "Use appropriate safety measures and limits."
+    ],
+    "suggestedPrompts": [
+      "Create a comprehensive marketing strategy for a new product.",
+      "Research and plan a healthy meal prep routine.",
+      "Develop a learning plan for a new programming language."
+    ]
+  },
+  {
+    "id": "langchain",
+    "name": "LangChain",
+    "category": "AI Development",
+    "description": "Framework for developing applications with large language models.",
+    "bestPractices": [
+      "Design robust prompt templates.",
+      "Handle errors and edge cases properly.",
+      "Test chains thoroughly before deployment."
+    ],
+    "suggestedPrompts": [
+      "Build a chatbot that can access company knowledge base.",
+      "Create a document analysis pipeline.",
+      "Develop a multi-step reasoning system."
+    ]
+  },
+  {
+    "id": "zapier-ai",
+    "name": "Zapier AI",
+    "category": "Automation",
+    "description": "AI-powered automation platform for connecting apps and services.",
+    "bestPractices": [
+      "Start with simple automation workflows.",
+      "Test automations with sample data.",
+      "Monitor for errors and edge cases."
+    ],
+    "suggestedPrompts": [
+      "Automatically categorize and route customer support emails.",
+      "Create social media posts from blog articles.",
+      "Generate reports from spreadsheet data updates."
+    ]
+  },
+  {
+    "id": "make-ai",
+    "name": "Make AI",
+    "category": "Automation",
+    "description": "AI features in Make (formerly Integromat) for workflow automation.",
+    "bestPractices": [
+      "Design workflows with clear logic flow.",
+      "Use AI modules for content processing.",
+      "Set up proper error handling."
+    ],
+    "suggestedPrompts": [
+      "Process and summarize incoming customer feedback.",
+      "Automatically translate and distribute content.",
+      "Analyze and categorize support tickets."
+    ]
+  },
+  {
+    "id": "microsoft-power-automate",
+    "name": "Microsoft Power Automate",
+    "category": "Automation",
+    "description": "Microsoft's automation platform with AI-powered capabilities.",
+    "bestPractices": [
+      "Integrate with Microsoft 365 ecosystem.",
+      "Use AI Builder for custom models.",
+      "Follow governance and compliance guidelines."
+    ],
+    "suggestedPrompts": [
+      "Automate invoice processing and approval workflows.",
+      "Create smart email routing based on content.",
+      "Build document classification systems."
+    ]
+  },
+  {
+    "id": "uipath-ai",
+    "name": "UiPath AI",
+    "category": "RPA",
+    "description": "AI-powered robotic process automation platform.",
+    "bestPractices": [
+      "Identify repetitive tasks suitable for automation.",
+      "Use AI for document understanding.",
+      "Monitor bot performance and accuracy."
+    ],
+    "suggestedPrompts": [
+      "Automate data entry from scanned documents.",
+      "Create intelligent customer service workflows.",
+      "Build automated report generation processes."
+    ]
+  },
+  {
+    "id": "automation-anywhere",
+    "name": "Automation Anywhere",
+    "category": "RPA",
+    "description": "Enterprise RPA platform with AI and machine learning capabilities.",
+    "bestPractices": [
+      "Start with high-volume, rule-based processes.",
+      "Use AI for unstructured data processing.",
+      "Implement proper security and governance."
+    ],
+    "suggestedPrompts": [
+      "Automate HR onboarding document processing.",
+      "Create intelligent invoice processing workflows.",
+      "Build automated compliance reporting systems."
+    ]
+  },
+  {
+    "id": "blue-prism",
+    "name": "Blue Prism",
+    "category": "RPA",
+    "description": "Enterprise-grade RPA platform with AI integration capabilities.",
+    "bestPractices": [
+      "Follow enterprise security standards.",
+      "Use AI for cognitive automation tasks.",
+      "Implement proper change management."
+    ],
+    "suggestedPrompts": [
+      "Automate customer account reconciliation processes.",
+      "Create intelligent claims processing workflows.",
+      "Build automated audit and compliance checks."
+    ]
+  },
+  {
+    "id": "openai-api",
+    "name": "OpenAI API",
+    "category": "AI Development",
+    "description": "API access to OpenAI's language models for developers.",
+    "bestPractices": [
+      "Design efficient prompt strategies.",
+      "Implement proper rate limiting and error handling.",
+      "Monitor usage and costs carefully."
+    ],
+    "suggestedPrompts": [
+      "Build a customer service chatbot for e-commerce.",
+      "Create an automated content generation system.",
+      "Develop a code review and documentation tool."
+    ]
+  },
+  {
+    "id": "anthropic-api",
+    "name": "Anthropic API",
+    "category": "AI Development",
+    "description": "API access to Claude models for building AI applications.",
+    "bestPractices": [
+      "Use Constitutional AI principles in design.",
+      "Implement safety measures and content filtering.",
+      "Test thoroughly with diverse inputs."
+    ],
+    "suggestedPrompts": [
+      "Create an educational tutoring assistant.",
+      "Build a research analysis and summary tool.",
+      "Develop an ethical AI content moderation system."
+    ]
+  },
+  {
+    "id": "cohere-api",
+    "name": "Cohere API",
+    "category": "AI Development",
+    "description": "API for natural language processing and generation tasks.",
+    "bestPractices": [
+      "Use appropriate models for specific tasks.",
+      "Implement proper data preprocessing.",
+      "Monitor model performance and drift."
+    ],
+    "suggestedPrompts": [
+      "Build a semantic search engine for documents.",
+      "Create a text classification system for support tickets.",
+      "Develop a multilingual content generation tool."
+    ]
+  },
+  {
+    "id": "stability-ai-api",
+    "name": "Stability AI API",
+    "category": "Image Generation",
+    "description": "API access to Stable Diffusion models for image generation.",
+    "bestPractices": [
+      "Use appropriate safety filters.",
+      "Optimize prompts for better results.",
+      "Respect intellectual property and ethical guidelines."
+    ],
+    "suggestedPrompts": [
+      "Generate product images for e-commerce catalogs.",
+      "Create artwork for marketing materials.",
+      "Build a custom image editing application."
+    ]
+  },
+  {
+    "id": "replicate-api",
+    "name": "Replicate API",
+    "category": "AI Development",
+    "description": "Platform for running and scaling machine learning models in the cloud.",
+    "bestPractices": [
+      "Choose appropriate models for your use case.",
+      "Optimize for cost and performance.",
+      "Handle model outputs and errors gracefully."
+    ],
+    "suggestedPrompts": [
+      "Deploy a custom image upscaling service.",
+      "Create a voice cloning application.",
+      "Build an automated video processing pipeline."
+    ]
+  },
+  {
+    "id": "pinecone",
+    "name": "Pinecone",
+    "category": "Vector Database",
+    "description": "Vector database for AI applications requiring similarity search.",
+    "bestPractices": [
+      "Design appropriate vector embedding strategies.",
+      "Optimize index configuration for your use case.",
+      "Monitor query performance and accuracy."
+    ],
+    "suggestedPrompts": [
+      "Build a recommendation system for content discovery.",
+      "Create a semantic search engine for knowledge base.",
+      "Develop a similarity-based fraud detection system."
+    ]
+  },
+  {
+    "id": "weaviate",
+    "name": "Weaviate",
+    "category": "Vector Database",
+    "description": "Open-source vector database with built-in ML models.",
+    "bestPractices": [
+      "Use appropriate vectorization modules.",
+      "Design efficient data schemas.",
+      "Implement proper backup and recovery."
+    ],
+    "suggestedPrompts": [
+      "Create a semantic knowledge graph for enterprise data.",
+      "Build a multimodal search system for media content.",
+      "Develop a personalized content recommendation engine."
+    ]
+  },
+  {
+    "id": "chroma",
+    "name": "Chroma",
+    "category": "Vector Database",
+    "description": "Open-source embedding database for AI applications.",
+    "bestPractices": [
+      "Use efficient embedding models.",
+      "Organize collections logically.",
+      "Monitor database performance and scaling."
+    ],
+    "suggestedPrompts": [
+      "Build a document similarity search system.",
+      "Create a customer support knowledge base.",
+      "Develop a code similarity detection tool."
+    ]
+  },
+  {
+    "id": "qdrant",
+    "name": "Qdrant",
+    "category": "Vector Database",
+    "description": "High-performance vector similarity search engine.",
+    "bestPractices": [
+      "Optimize payload storage and filtering.",
+      "Use appropriate distance metrics.",
+      "Design for horizontal scaling needs."
+    ],
+    "suggestedPrompts": [
+      "Create a real-time recommendation system.",
+      "Build a visual similarity search for images.",
+      "Develop a neural information retrieval system."
+    ]
+  },
+  {
+    "id": "codegen-16b",
+    "name": "CodeGen 16B",
+    "category": "Programming",
+    "description": "Pioneer AI model for code generation that helped establish the field of AI-assisted programming.",
+    "bestPractices": [
+      "Use clear, descriptive function and variable names",
+      "Provide detailed code comments for complex logic",
+      "Test generated code thoroughly before deployment",
+      "Review and refactor generated code for optimization"
+    ],
+    "suggestedPrompts": [
+      "Generate a Python function to calculate Fibonacci numbers",
+      "Create a JavaScript module for HTTP requests",
+      "Write a SQL query to join multiple tables"
+    ]
+  },
+  {
+    "id": "ai21-jurassic",
+    "name": "AI21 Jurassic",
+    "category": "Text Generation",
+    "description": "Large language model focused on high-quality text generation and understanding.",
+    "bestPractices": [
+      "Use specific prompts for better content quality",
+      "Leverage its strong multilingual capabilities",
+      "Experiment with different temperature settings",
+      "Use for creative writing and content generation"
+    ],
+    "suggestedPrompts": [
+      "Write a compelling product description for an eco-friendly product",
+      "Create a technical blog post about machine learning",
+      "Generate creative story ideas for a science fiction novel"
+    ]
+  },
+  {
+    "id": "deepl-write",
+    "name": "DeepL Write",
+    "category": "Writing",
+    "description": "AI-powered writing assistant that improves clarity, tone, and style of your text.",
+    "bestPractices": [
+      "Use for improving existing text rather than generating from scratch",
+      "Pay attention to tone and style suggestions",
+      "Review grammar and punctuation improvements",
+      "Consider different writing styles for various audiences"
+    ],
+    "suggestedPrompts": [
+      "Improve the clarity of this technical documentation",
+      "Make this email more professional and concise",
+      "Enhance the flow and readability of this blog post"
+    ]
+  },
+  {
+    "id": "wit-ai",
+    "name": "Wit.ai",
+    "category": "Voice & Audio",
+    "description": "Natural language processing platform for building conversational interfaces and voice applications.",
+    "bestPractices": [
+      "Train with diverse example utterances",
+      "Define clear intents and entities",
+      "Test with real user conversations",
+      "Continuously improve with user feedback"
+    ],
+    "suggestedPrompts": [
+      "Create a voice interface for a smart home system",
+      "Build a chatbot for customer service",
+      "Develop natural language commands for an app"
+    ]
+  },
+  {
+    "id": "speechify",
+    "name": "Speechify",
+    "category": "Voice & Audio",
+    "description": "AI-powered text-to-speech tool that converts written content into natural-sounding audio.",
+    "bestPractices": [
+      "Choose appropriate voice and speed settings",
+      "Use for accessibility and learning purposes",
+      "Optimize text formatting for better speech",
+      "Leverage different voices for varied content"
+    ],
+    "suggestedPrompts": [
+      "Convert this research paper to audio for multitasking",
+      "Create an audiobook version of written content",
+      "Generate voice narration for educational videos"
+    ]
+  },
+  {
+    "id": "sonix",
+    "name": "Sonix",
+    "category": "Voice & Audio",
+    "description": "Automated transcription service with AI-powered accuracy and multi-language support.",
+    "bestPractices": [
+      "Use high-quality audio for best results",
+      "Review and edit transcriptions for accuracy",
+      "Leverage speaker identification features",
+      "Use custom vocabulary for specialized terms"
+    ],
+    "suggestedPrompts": [
+      "Transcribe this interview for content creation",
+      "Convert podcast episodes to searchable text",
+      "Create captions for video content"
+    ]
+  },
+  {
+    "id": "rev-ai",
+    "name": "Rev AI",
+    "category": "Voice & Audio",
+    "description": "Professional speech-to-text API with high accuracy and fast turnaround times.",
+    "bestPractices": [
+      "Use appropriate audio quality settings",
+      "Leverage custom vocabulary features",
+      "Implement proper error handling",
+      "Consider real-time vs batch processing needs"
+    ],
+    "suggestedPrompts": [
+      "Integrate speech recognition into a mobile app",
+      "Create live captions for video conferences",
+      "Build voice-controlled application features"
+    ]
+  },
+  {
+    "id": "lexical",
+    "name": "Lexical",
+    "category": "Writing",
+    "description": "Extensible text editor framework with AI-powered features for rich content creation.",
+    "bestPractices": [
+      "Customize plugins for specific use cases",
+      "Implement proper state management",
+      "Use collaborative editing features effectively",
+      "Optimize for performance with large documents"
+    ],
+    "suggestedPrompts": [
+      "Build a collaborative document editor",
+      "Create a rich text editor with AI suggestions",
+      "Implement real-time content collaboration"
+    ]
+  },
+  {
+    "id": "cowriter",
+    "name": "CoWriter",
+    "category": "Writing",
+    "description": "AI writing companion that helps with content creation, editing, and collaboration.",
+    "bestPractices": [
+      "Use for collaborative writing projects",
+      "Leverage AI suggestions for content improvement",
+      "Organize writing projects effectively",
+      "Use version control and feedback features"
+    ],
+    "suggestedPrompts": [
+      "Collaborate on a research paper with team members",
+      "Get AI assistance for creative writing projects",
+      "Improve document structure and flow"
+    ]
+  },
+  {
+    "id": "anyword",
+    "name": "Anyword",
+    "category": "Marketing",
+    "description": "AI copywriting platform that predicts content performance and optimizes for conversions.",
+    "bestPractices": [
+      "Use performance predictions to guide content decisions",
+      "A/B test different copy variations",
+      "Leverage audience targeting features",
+      "Monitor conversion metrics and optimize"
+    ],
+    "suggestedPrompts": [
+      "Create high-converting ad copy for social media",
+      "Generate email subject lines that increase open rates",
+      "Write product descriptions that drive sales"
+    ]
+  },
+  {
+    "id": "phrasee",
+    "name": "Phrasee",
+    "category": "Marketing",
+    "description": "AI-powered marketing copy optimization that uses natural language generation for brand voice.",
+    "bestPractices": [
+      "Train the AI on your brand voice and style",
+      "Use for email marketing optimization",
+      "Test multiple variations for best performance",
+      "Monitor engagement metrics closely"
+    ],
+    "suggestedPrompts": [
+      "Optimize email subject lines for better open rates",
+      "Generate brand-consistent social media posts",
+      "Create personalized marketing messages"
+    ]
+  },
+  {
+    "id": "persado",
+    "name": "Persado",
+    "category": "Marketing",
+    "description": "AI platform that generates marketing language proven to drive action and engagement.",
+    "bestPractices": [
+      "Use emotion-driven language recommendations",
+      "Test cognitive biases in messaging",
+      "Leverage psychological triggers for conversion",
+      "Monitor emotional response metrics"
+    ],
+    "suggestedPrompts": [
+      "Create emotionally resonant ad campaigns",
+      "Generate persuasive call-to-action text",
+      "Develop customer journey messaging"
+    ]
+  },
+  {
+    "id": "flowrite",
+    "name": "Flowrite",
+    "category": "Communication",
+    "description": "AI writing assistant that turns instructions into ready-to-send emails and messages.",
+    "bestPractices": [
+      "Use clear instructions for better output",
+      "Customize tone and style for different recipients",
+      "Review and personalize generated content",
+      "Use templates for common communication types"
+    ],
+    "suggestedPrompts": [
+      "Write a professional follow-up email after a meeting",
+      "Create a customer service response template",
+      "Generate a networking outreach message"
+    ]
+  },
+  {
+    "id": "compose-ai",
+    "name": "Compose AI",
+    "category": "Writing",
+    "description": "AI-powered writing extension that accelerates writing across all platforms and applications.",
+    "bestPractices": [
+      "Use autocompletion to speed up writing",
+      "Leverage context-aware suggestions",
+      "Customize writing style preferences",
+      "Use across different platforms consistently"
+    ],
+    "suggestedPrompts": [
+      "Speed up email composition with AI assistance",
+      "Get writing suggestions for social media posts",
+      "Improve document writing efficiency"
+    ]
+  },
+  {
+    "id": "ai-writer",
+    "name": "AI-Writer",
+    "category": "Content Creation",
+    "description": "AI content generator that creates articles from just headlines using verified sources.",
+    "bestPractices": [
+      "Provide clear, specific headlines",
+      "Verify and cite sources properly",
+      "Edit and fact-check generated content",
+      "Use for research and content ideation"
+    ],
+    "suggestedPrompts": [
+      "Generate an article about renewable energy trends",
+      "Create content on digital marketing strategies",
+      "Write an informative piece on AI developments"
+    ]
+  },
+  {
+    "id": "contentbot",
+    "name": "ContentBot",
+    "category": "Content Creation",
+    "description": "AI content creation tool that generates blog posts, ads, emails, and social media content.",
+    "bestPractices": [
+      "Use specific content briefs for better results",
+      "Leverage different content types effectively",
+      "Maintain consistent brand voice",
+      "Edit and optimize generated content"
+    ],
+    "suggestedPrompts": [
+      "Create a week's worth of social media content",
+      "Generate blog post ideas for a tech startup",
+      "Write compelling ad copy for a new product launch"
+    ]
+  },
+  {
+    "id": "peppertype",
+    "name": "Peppertype",
+    "category": "Content Creation",
+    "description": "AI content assistant that helps create, edit, and optimize content for various platforms.",
+    "bestPractices": [
+      "Use content templates for consistency",
+      "Optimize for SEO and engagement",
+      "Leverage collaboration features for team work",
+      "Monitor content performance metrics"
+    ],
+    "suggestedPrompts": [
+      "Create SEO-optimized blog content",
+      "Generate social media content calendar",
+      "Write persuasive sales copy"
+    ]
+  },
+  {
+    "id": "wordsmith",
+    "name": "Wordsmith",
+    "category": "Content Creation",
+    "description": "Natural language generation platform that transforms data into human-like narratives.",
+    "bestPractices": [
+      "Structure data clearly for better narratives",
+      "Use templates for consistent output",
+      "Customize language and tone settings",
+      "Integrate with existing data workflows"
+    ],
+    "suggestedPrompts": [
+      "Generate automated reports from sales data",
+      "Create personalized product descriptions",
+      "Transform analytics into readable summaries"
+    ]
+  },
+  {
+    "id": "botpress",
+    "name": "Botpress",
+    "category": "Conversational AI",
+    "description": "Open-source conversational AI platform for building advanced chatbots and virtual assistants.",
+    "bestPractices": [
+      "Design clear conversation flows",
+      "Implement proper fallback mechanisms",
+      "Use natural language understanding effectively",
+      "Test with real user interactions"
+    ],
+    "suggestedPrompts": [
+      "Build a customer support chatbot",
+      "Create an FAQ automation system",
+      "Develop a lead qualification bot"
+    ]
+  },
+  {
+    "id": "rasa",
+    "name": "Rasa",
+    "category": "Conversational AI",
+    "description": "Open-source framework for building contextual AI assistants and chatbots.",
+    "bestPractices": [
+      "Train with diverse conversation examples",
+      "Implement proper intent recognition",
+      "Use contextual conversation management",
+      "Continuously improve with user feedback"
+    ],
+    "suggestedPrompts": [
+      "Build a restaurant booking assistant",
+      "Create a technical support chatbot",
+      "Develop a personal finance advisor bot"
+    ]
+  },
+  {
+    "id": "dialogflow",
+    "name": "Dialogflow",
+    "category": "Conversational AI",
+    "description": "Google's conversational AI platform for building natural and rich conversational experiences.",
+    "bestPractices": [
+      "Design intuitive conversation flows",
+      "Use entities and intents effectively",
+      "Implement proper context management",
+      "Test across multiple platforms"
+    ],
+    "suggestedPrompts": [
+      "Create a voice assistant for smart devices",
+      "Build a multilingual customer service bot",
+      "Develop an e-commerce shopping assistant"
+    ]
+  },
+  {
+    "id": "watson-assistant",
+    "name": "Watson Assistant",
+    "category": "Conversational AI",
+    "description": "IBM's enterprise-grade AI assistant that understands complex conversations and provides intelligent responses.",
+    "bestPractices": [
+      "Use enterprise security features",
+      "Implement advanced conversation management",
+      "Leverage industry-specific templates",
+      "Monitor conversation analytics"
+    ],
+    "suggestedPrompts": [
+      "Build an enterprise HR assistant",
+      "Create a banking customer service bot",
+      "Develop a healthcare information assistant"
+    ]
+  },
+  {
+    "id": "azure-bot-service",
+    "name": "Azure Bot Service",
+    "category": "Conversational AI",
+    "description": "Microsoft's comprehensive platform for building, deploying, and managing intelligent bots.",
+    "bestPractices": [
+      "Use Azure cognitive services integration",
+      "Implement proper authentication and security",
+      "Leverage multi-channel deployment",
+      "Monitor bot performance and usage"
+    ],
+    "suggestedPrompts": [
+      "Build a Teams collaboration bot",
+      "Create a Skype customer service assistant",
+      "Develop a web chat support system"
+    ]
+  }
+]

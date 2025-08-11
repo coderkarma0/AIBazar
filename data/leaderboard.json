@@ -1,0 +1,20 @@
+[
+  {
+    "rank": 1,
+    "toolId": "chatgpt",
+    "score": 9.8,
+    "achievement": "Most versatile AI assistant of the year"
+  },
+  {
+    "rank": 2,
+    "toolId": "midjourney",
+    "score": 9.5,
+    "achievement": "Best AI image generator"
+  },
+  {
+    "rank": 3,
+    "toolId": "notion-ai",
+    "score": 9.2,
+    "achievement": "Top productivity booster"
+  }
+]

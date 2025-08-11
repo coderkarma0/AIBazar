@@ -8,6 +8,7 @@ interface LazyWrapperProps {
   className?: string;
 }
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function createLazyComponent<T extends ComponentType<any>>(
   importFn: () => Promise<{ default: T }>,
   fallback?: React.ReactNode
@@ -28,7 +29,7 @@ export function createLazyComponent<T extends ComponentType<any>>(
     );
 
     return (
-      <Suspense fallback={customFallback || defaultFallback}>
+      <Suspense fallback={customFallback || fallback || defaultFallback}>
         <LazyComponent {...(componentProps as React.ComponentProps<T>)} />
       </Suspense>
     );

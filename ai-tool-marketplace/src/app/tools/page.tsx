@@ -31,7 +31,7 @@ export default function ToolsPage() {
         setTools(toolsData);
         setLoading(false);
       }, 100);
-    } catch (err) {
+    } catch {
       setError("Failed to load tools data");
       setLoading(false);
     }
@@ -76,7 +76,7 @@ export default function ToolsPage() {
         setTools(toolsData);
         setLoading(false);
       }, 100);
-    } catch (err) {
+    } catch {
       setError("Failed to load tools data");
       setLoading(false);
     }

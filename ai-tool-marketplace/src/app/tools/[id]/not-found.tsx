@@ -10,8 +10,8 @@ export default function NotFound() {
             Tool Not Found
           </h2>
           <p className="text-gray-600">
-            The AI tool you're looking for doesn't exist or may have been
-            removed.
+            The AI tool you&apos;re looking for doesn&apos;t exist or may have
+            been removed.
           </p>
         </div>
 

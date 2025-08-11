@@ -105,7 +105,7 @@ describe("Performance Tests", () => {
     const debounceDelay = 300;
     let timeoutId: NodeJS.Timeout;
 
-    const simulateSearch = (searchTerm: string) => {
+    const simulateSearch = () => {
       clearTimeout(timeoutId);
       timeoutId = setTimeout(() => {
         filterCount++;
@@ -119,9 +119,9 @@ describe("Performance Tests", () => {
     };
 
     // Simulate rapid typing
-    simulateSearch("T");
-    simulateSearch("To");
-    simulateSearch("Too");
-    simulateSearch("Tool");
+    simulateSearch();
+    simulateSearch();
+    simulateSearch();
+    simulateSearch();
   });
 });

@@ -5,9 +5,9 @@ import PromptCard from "@/components/PromptCard";
 import PageLayout from "@/components/PageLayout";
 
 interface ToolDetailPageProps {
-  params: {
+  params: Promise<{
     id: string;
-  };
+  }>;
 }
 
 // Generate static params for all tools at build time
@@ -19,7 +19,8 @@ export async function generateStaticParams() {
 
 // Generate metadata for each tool page
 export async function generateMetadata({ params }: ToolDetailPageProps) {
-  const tool = toolsData.find((t) => t.id === params.id);
+  const { id } = await params;
+  const tool = toolsData.find((t) => t.id === id);
 
   if (!tool) {
     return {
@@ -33,8 +34,9 @@ export async function generateMetadata({ params }: ToolDetailPageProps) {
   };
 }
 
-export default function ToolDetailPage({ params }: ToolDetailPageProps) {
-  const tool = toolsData.find((t) => t.id === params.id) as Tool | undefined;
+export default async function ToolDetailPage({ params }: ToolDetailPageProps) {
+  const { id } = await params;
+  const tool = toolsData.find((t) => t.id === id) as Tool | undefined;
 
   if (!tool) {
     notFound();

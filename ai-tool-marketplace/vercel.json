@@ -1,8 +1,5 @@
 {
-  "buildCommand": "npm run build:production",
-  "outputDirectory": "out",
   "trailingSlash": true,
-  "cleanUrls": false,
   "headers": [
     {
       "source": "/(.*)",

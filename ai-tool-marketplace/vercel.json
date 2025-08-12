@@ -1,5 +1,6 @@
 {
   "trailingSlash": true,
+  "cleanUrls": false,
   "headers": [
     {
       "source": "/(.*)",
@@ -52,15 +53,38 @@
   ],
   "redirects": [
     {
-      "source": "/tools/:path*",
-      "has": [
-        {
-          "type": "host",
-          "value": "(?<host>.*)"
-        }
-      ],
+      "source": "/tools/index.txt",
+      "destination": "/tools/",
+      "permanent": true
+    },
+    {
+      "source": "/leaderboard/index.txt",
+      "destination": "/leaderboard/",
+      "permanent": true
+    },
+    {
+      "source": "/coupons/index.txt",
+      "destination": "/coupons/",
+      "permanent": true
+    },
+    {
+      "source": "/tools/:path*/index.txt",
       "destination": "/tools/:path*/",
       "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/tools",
+      "destination": "/tools/"
+    },
+    {
+      "source": "/leaderboard",
+      "destination": "/leaderboard/"
+    },
+    {
+      "source": "/coupons",
+      "destination": "/coupons/"
     }
   ]
 }

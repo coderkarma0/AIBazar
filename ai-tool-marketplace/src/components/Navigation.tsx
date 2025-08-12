@@ -13,6 +13,8 @@ const Navigation = () => {
     { name: "Tools", href: "/tools" },
     { name: "Leaderboard", href: "/leaderboard" },
     { name: "Coupons", href: "/coupons" },
+    { name: "AI IDE Guide", href: "/ai-ide-guide" },
+    { name: "Dev Playbook", href: "/ai-development-playbook" },
   ];
 
   const isActive = (href: string) => {

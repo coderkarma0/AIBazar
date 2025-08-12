@@ -5,6 +5,22 @@ import ToolDetailPage, {
   generateMetadata,
 } from "../page";
 
+// Create a test wrapper for the async component
+function TestWrapper({ toolId }: { toolId: string }) {
+  const [Component, setComponent] = React.useState<React.ReactNode>(null);
+
+  React.useEffect(() => {
+    const renderComponent = async () => {
+      const params = Promise.resolve({ id: toolId });
+      const element = await ToolDetailPage({ params });
+      setComponent(element);
+    };
+    renderComponent();
+  }, [toolId]);
+
+  return <>{Component}</>;
+}
+
 // Mock the tools data
 jest.mock("@/data/tools.json", () => [
   {
@@ -35,6 +51,41 @@ jest.mock("next/navigation", () => ({
   notFound: () => mockNotFound(),
 }));
 
+// Mock PageLayout component
+interface MockBreadcrumb {
+  label: string;
+  href?: string;
+}
+
+interface MockPageLayoutProps {
+  children: React.ReactNode;
+  breadcrumbs?: MockBreadcrumb[];
+}
+
+jest.mock("@/components/PageLayout", () => {
+  return function MockPageLayout({
+    children,
+    breadcrumbs,
+  }: MockPageLayoutProps) {
+    return (
+      <div>
+        <nav role="navigation">
+          {breadcrumbs?.map((crumb: MockBreadcrumb, index: number) => (
+            <span key={index}>
+              {crumb.href ? (
+                <a href={crumb.href}>{crumb.label}</a>
+              ) : (
+                crumb.label
+              )}
+            </span>
+          ))}
+        </nav>
+        {children}
+      </div>
+    );
+  };
+});
+
 // Mock clipboard API
 Object.assign(navigator, {
   clipboard: {
@@ -58,29 +109,32 @@ describe("ToolDetailPage", () => {
   describe("generateMetadata", () => {
     it("generates correct metadata for existing tool", async () => {
       const metadata = await generateMetadata({
-        params: { id: "test-tool-1" },
+        params: Promise.resolve({ id: "test-tool-1" }),
       });
 
-      expect(metadata).toEqual({
-        title: "Test Tool 1 - AI Tool Marketplace",
-        description: "This is a test tool description for testing purposes.",
-      });
+      expect(metadata.title).toBe("Test Tool 1 - Test Category AI Tool");
+      expect(metadata.description).toContain(
+        "This is a test tool description for testing purposes."
+      );
     });
 
     it("generates not found metadata for non-existent tool", async () => {
       const metadata = await generateMetadata({
-        params: { id: "non-existent" },
+        params: Promise.resolve({ id: "non-existent" }),
       });
 
-      expect(metadata).toEqual({
-        title: "Tool Not Found",
-      });
+      expect(metadata.title).toBe("Tool Not Found - AI Tool Marketplace");
     });
   });
 
   describe("ToolDetailPage Component", () => {
-    it("renders tool details for valid tool ID", () => {
-      render(<ToolDetailPage params={{ id: "test-tool-1" }} />);
+    it("renders tool details for valid tool ID", async () => {
+      render(<TestWrapper toolId="test-tool-1" />);
+
+      // Wait for async component to render
+      await waitFor(() => {
+        expect(screen.getByRole("heading", { level: 1 })).toBeInTheDocument();
+      });
 
       // Check tool name in heading
       const heading = screen.getByRole("heading", { level: 1 });
@@ -97,14 +151,21 @@ describe("ToolDetailPage", () => {
       ).toBeInTheDocument();
     });
 
-    it("calls notFound for invalid tool ID", () => {
-      render(<ToolDetailPage params={{ id: "invalid-id" }} />);
+    it("calls notFound for invalid tool ID", async () => {
+      render(<TestWrapper toolId="invalid-id" />);
 
-      expect(mockNotFound).toHaveBeenCalled();
+      await waitFor(() => {
+        expect(mockNotFound).toHaveBeenCalled();
+      });
     });
 
-    it("renders breadcrumb navigation", () => {
-      render(<ToolDetailPage params={{ id: "test-tool-1" }} />);
+    it("renders breadcrumb navigation", async () => {
+      render(<TestWrapper toolId="test-tool-1" />);
+
+      // Wait for component to render
+      await waitFor(() => {
+        expect(screen.getByRole("navigation")).toBeInTheDocument();
+      });
 
       // Check breadcrumb navigation exists
       const nav = screen.getByRole("navigation");
@@ -123,8 +184,12 @@ describe("ToolDetailPage", () => {
       expect(nav).toHaveTextContent("Test Tool 1");
     });
 
-    it("displays tool header with name and category badge", () => {
-      render(<ToolDetailPage params={{ id: "test-tool-1" }} />);
+    it("displays tool header with name and category badge", async () => {
+      render(<TestWrapper toolId="test-tool-1" />);
+
+      await waitFor(() => {
+        expect(screen.getByRole("heading", { level: 1 })).toBeInTheDocument();
+      });
 
       const heading = screen.getByRole("heading", { level: 1 });
       expect(heading).toHaveTextContent("Test Tool 1");
@@ -137,10 +202,13 @@ describe("ToolDetailPage", () => {
       );
     });
 
-    it("renders about section with description", () => {
-      render(<ToolDetailPage params={{ id: "test-tool-1" }} />);
+    it("renders about section with description", async () => {
+      render(<TestWrapper toolId="test-tool-1" />);
 
-      expect(screen.getByText("About Test Tool 1")).toBeInTheDocument();
+      await waitFor(() => {
+        expect(screen.getByText("About Test Tool 1")).toBeInTheDocument();
+      });
+
       expect(
         screen.getByText(
           "This is a test tool description for testing purposes."
@@ -148,10 +216,12 @@ describe("ToolDetailPage", () => {
       ).toBeInTheDocument();
     });
 
-    it("displays best practices section with bulleted list", () => {
-      render(<ToolDetailPage params={{ id: "test-tool-1" }} />);
+    it("displays best practices section with bulleted list", async () => {
+      render(<TestWrapper toolId="test-tool-1" />);
 
-      expect(screen.getByText("Best Practices")).toBeInTheDocument();
+      await waitFor(() => {
+        expect(screen.getByText("Best Practices")).toBeInTheDocument();
+      });
 
       // Check all best practices are rendered
       expect(
@@ -165,10 +235,12 @@ describe("ToolDetailPage", () => {
       ).toBeInTheDocument();
     });
 
-    it("renders suggested prompts section with prompt cards", () => {
-      render(<ToolDetailPage params={{ id: "test-tool-1" }} />);
+    it("renders suggested prompts section with prompt cards", async () => {
+      render(<TestWrapper toolId="test-tool-1" />);
 
-      expect(screen.getByText("Suggested Prompts")).toBeInTheDocument();
+      await waitFor(() => {
+        expect(screen.getByText("Suggested Prompts")).toBeInTheDocument();
+      });
 
       // Check all prompts are rendered
       expect(screen.getByText("Test prompt 1")).toBeInTheDocument();
@@ -181,7 +253,11 @@ describe("ToolDetailPage", () => {
     });
 
     it("handles copy to clipboard functionality", async () => {
-      render(<ToolDetailPage params={{ id: "test-tool-1" }} />);
+      render(<TestWrapper toolId="test-tool-1" />);
+
+      await waitFor(() => {
+        expect(screen.getAllByText("Copy")).toHaveLength(3);
+      });
 
       const copyButtons = screen.getAllByText("Copy");
       const firstCopyButton = copyButtons[0];
@@ -195,8 +271,12 @@ describe("ToolDetailPage", () => {
       });
     });
 
-    it("applies responsive grid layout for prompts", () => {
-      render(<ToolDetailPage params={{ id: "test-tool-1" }} />);
+    it("applies responsive grid layout for prompts", async () => {
+      render(<TestWrapper toolId="test-tool-1" />);
+
+      await waitFor(() => {
+        expect(document.querySelector(".grid")).toBeInTheDocument();
+      });
 
       const promptsGrid = document.querySelector(".grid");
       expect(promptsGrid).toHaveClass(
@@ -206,8 +286,12 @@ describe("ToolDetailPage", () => {
       );
     });
 
-    it("has proper semantic HTML structure", () => {
-      render(<ToolDetailPage params={{ id: "test-tool-1" }} />);
+    it("has proper semantic HTML structure", async () => {
+      render(<TestWrapper toolId="test-tool-1" />);
+
+      await waitFor(() => {
+        expect(screen.getByRole("heading", { level: 1 })).toBeInTheDocument();
+      });
 
       // Check heading hierarchy
       const h1 = screen.getByRole("heading", { level: 1 });
@@ -217,8 +301,12 @@ describe("ToolDetailPage", () => {
       expect(h2Elements).toHaveLength(3); // About, Best Practices, Suggested Prompts
     });
 
-    it("renders responsive layout classes", () => {
-      render(<ToolDetailPage params={{ id: "test-tool-1" }} />);
+    it("renders responsive layout classes", async () => {
+      render(<TestWrapper toolId="test-tool-1" />);
+
+      await waitFor(() => {
+        expect(document.querySelector(".max-w-4xl")).toBeInTheDocument();
+      });
 
       // Check for PageLayout structure instead of old container classes
       const maxWidthContainer = document.querySelector(".max-w-4xl");
@@ -229,8 +317,12 @@ describe("ToolDetailPage", () => {
       expect(paddingContainer).toBeInTheDocument();
     });
 
-    it("handles tools with different numbers of practices and prompts", () => {
-      render(<ToolDetailPage params={{ id: "test-tool-2" }} />);
+    it("handles tools with different numbers of practices and prompts", async () => {
+      render(<TestWrapper toolId="test-tool-2" />);
+
+      await waitFor(() => {
+        expect(screen.getByRole("heading", { level: 1 })).toBeInTheDocument();
+      });
 
       // Check tool name in heading
       const heading = screen.getByRole("heading", { level: 1 });

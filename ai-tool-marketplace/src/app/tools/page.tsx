@@ -7,6 +7,9 @@ import LoadingSpinner from "@/components/LoadingSpinner";
 import { Tool } from "@/types";
 import toolsData from "@/data/tools.json";
 
+// Note: Client components can't export metadata directly
+// Metadata is handled by the parent layout or a server component wrapper
+
 export default function ToolsPage() {
   const [tools, setTools] = useState<Tool[]>([]);
   const [loading, setLoading] = useState(true);
@@ -165,16 +168,23 @@ export default function ToolsPage() {
       <div className="py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Search and Filter Section */}
-          <div className="mb-8">
-            <div className="flex flex-col sm:flex-row gap-4">
+          <section className="mb-8" aria-labelledby="search-filters-heading">
+            <h2 id="search-filters-heading" className="sr-only">
+              Search and Filter Tools
+            </h2>
+            <div className="flex flex-col sm:flex-row gap-4" role="search">
               {/* Search Input */}
               <div className="relative flex-1 max-w-md">
+                <label htmlFor="tool-search" className="sr-only">
+                  Search tools by name
+                </label>
                 <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                   <svg
                     className="h-5 w-5 text-gray-400"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
+                    aria-hidden="true"
                   >
                     <path
                       strokeLinecap="round"
@@ -185,23 +195,29 @@ export default function ToolsPage() {
                   </svg>
                 </div>
                 <input
+                  id="tool-search"
                   type="text"
                   placeholder="Search tools by name..."
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
-                  className="block w-full pl-10 pr-10 py-3 border border-gray-300 rounded-lg leading-5 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 focus:ring-1 focus:ring-blue-500 focus:border-blue-500"
+                  className="block w-full pl-10 pr-10 py-3 border border-gray-300 rounded-lg leading-5 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                  aria-describedby="search-help"
                 />
+                <span id="search-help" className="sr-only">
+                  Type to filter tools by name. Results will update as you type.
+                </span>
                 {searchTerm && (
                   <button
                     onClick={handleClearSearch}
-                    className="absolute inset-y-0 right-0 pr-3 flex items-center"
-                    aria-label="Clear search"
+                    className="absolute inset-y-0 right-0 pr-3 flex items-center focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-r-lg"
+                    aria-label={`Clear search term: ${searchTerm}`}
                   >
                     <svg
                       className="h-5 w-5 text-gray-400 hover:text-gray-600"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
+                      aria-hidden="true"
                     >
                       <path
                         strokeLinecap="round"
@@ -216,10 +232,15 @@ export default function ToolsPage() {
 
               {/* Category Filter */}
               <div className="relative">
+                <label htmlFor="category-filter" className="sr-only">
+                  Filter by category
+                </label>
                 <select
+                  id="category-filter"
                   value={selectedCategory}
                   onChange={(e) => setSelectedCategory(e.target.value)}
-                  className="block w-full sm:w-48 px-3 py-3 border border-gray-300 rounded-lg bg-white text-gray-900 focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 appearance-none cursor-pointer"
+                  className="block w-full sm:w-48 px-3 py-3 border border-gray-300 rounded-lg bg-white text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 appearance-none cursor-pointer"
+                  aria-describedby="category-help"
                 >
                   {categories.map((category) => (
                     <option key={category} value={category}>
@@ -227,12 +248,17 @@ export default function ToolsPage() {
                     </option>
                   ))}
                 </select>
+                <span id="category-help" className="sr-only">
+                  Select a category to filter tools. Choose &quot;All
+                  Categories&quot; to show all tools.
+                </span>
                 <div className="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
                   <svg
                     className="h-5 w-5 text-gray-400"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
+                    aria-hidden="true"
                   >
                     <path
                       strokeLinecap="round"
@@ -244,15 +270,26 @@ export default function ToolsPage() {
                 </div>
               </div>
             </div>
-          </div>
+          </section>
 
           {/* Tools Grid or Empty State */}
           {filteredTools.length > 0 ? (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-              {filteredTools.map((tool) => (
-                <ToolCard key={tool.id} tool={tool} />
-              ))}
-            </div>
+            <section aria-labelledby="tools-results-heading">
+              <h2 id="tools-results-heading" className="sr-only">
+                AI Tools Results
+              </h2>
+              <div
+                className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"
+                role="list"
+                aria-label={`${filteredTools.length} AI tools found`}
+              >
+                {filteredTools.map((tool) => (
+                  <div key={tool.id} role="listitem">
+                    <ToolCard tool={tool} />
+                  </div>
+                ))}
+              </div>
+            </section>
           ) : (
             <div className="text-center py-12">
               <div className="mx-auto h-12 w-12 text-gray-400">

@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react";
 import Home from "../page";
 
 // Mock the data files
-jest.mock("../../../../data/tools.json", () => [
+jest.mock("@/data/tools.json", () => [
   {
     id: "chatgpt",
     name: "ChatGPT",
@@ -32,7 +32,7 @@ jest.mock("../../../../data/tools.json", () => [
   },
 ]);
 
-jest.mock("../../../../data/leaderboard.json", () => [
+jest.mock("@/data/leaderboard.json", () => [
   {
     rank: 1,
     toolId: "chatgpt",

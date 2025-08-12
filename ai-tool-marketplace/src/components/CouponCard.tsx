@@ -39,32 +39,50 @@ export default function CouponCard({ coupon }: CouponCardProps) {
   };
 
   return (
-    <div
-      className={`bg-white rounded-lg shadow-md border-2 p-6 transition-all duration-200 hover:shadow-lg ${
+    <article
+      className={`bg-white rounded-lg shadow-md border-2 p-6 transition-all duration-200 hover:shadow-lg focus-within:ring-2 focus-within:ring-blue-500 focus-within:ring-offset-2 ${
         isExpired
           ? "border-red-200 bg-red-50"
           : isExpiringSoon
           ? "border-yellow-200 bg-yellow-50"
           : "border-gray-200 hover:border-blue-300"
       }`}
+      aria-labelledby={`coupon-${coupon.id}-title`}
+      aria-describedby={`coupon-${coupon.id}-description coupon-${coupon.id}-expiry`}
     >
       {/* Coupon Code */}
       <div className="mb-4">
         <div className="flex items-center justify-between mb-2">
-          <h3 className="text-lg font-bold text-gray-900">Coupon Code</h3>
+          <h3
+            id={`coupon-${coupon.id}-title`}
+            className="text-lg font-bold text-gray-900"
+          >
+            Coupon Code
+          </h3>
           {isExpired && (
-            <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-red-100 text-red-800">
+            <span
+              className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-red-100 text-red-800"
+              role="status"
+              aria-label="This coupon has expired"
+            >
               Expired
             </span>
           )}
           {isExpiringSoon && !isExpired && (
-            <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-yellow-100 text-yellow-800">
+            <span
+              className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-yellow-100 text-yellow-800"
+              role="status"
+              aria-label="This coupon expires soon"
+            >
               Expires Soon
             </span>
           )}
         </div>
         <div className="bg-gray-100 rounded-md p-3 border-2 border-dashed border-gray-300">
-          <code className="text-xl font-mono font-bold text-blue-600 tracking-wider">
+          <code
+            className="text-xl font-mono font-bold text-blue-600 tracking-wider"
+            aria-label={`Coupon code: ${coupon.code}`}
+          >
             {coupon.code}
           </code>
         </div>
@@ -72,7 +90,10 @@ export default function CouponCard({ coupon }: CouponCardProps) {
 
       {/* Description */}
       <div className="mb-4">
-        <p className="text-gray-700 text-sm leading-relaxed">
+        <p
+          id={`coupon-${coupon.id}-description`}
+          className="text-gray-700 text-sm leading-relaxed"
+        >
           {coupon.description}
         </p>
       </div>
@@ -80,6 +101,7 @@ export default function CouponCard({ coupon }: CouponCardProps) {
       {/* Expiry Date */}
       <div className="mb-4">
         <p
+          id={`coupon-${coupon.id}-expiry`}
           className={`text-xs font-medium ${
             isExpired
               ? "text-red-600"
@@ -87,6 +109,7 @@ export default function CouponCard({ coupon }: CouponCardProps) {
               ? "text-yellow-600"
               : "text-gray-500"
           }`}
+          aria-label={`Expires on ${formatDate(coupon.expiry)}`}
         >
           Expires: {formatDate(coupon.expiry)}
         </p>
@@ -97,13 +120,21 @@ export default function CouponCard({ coupon }: CouponCardProps) {
         <button
           onClick={handleCopy}
           disabled={copied || isExpired}
-          className={`inline-flex items-center px-4 py-2 text-sm font-medium rounded-md transition-all duration-200 ${
+          className={`inline-flex items-center px-4 py-2 text-sm font-medium rounded-md transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 ${
             copied
               ? "bg-green-100 text-green-800 border border-green-200"
               : isExpired
               ? "bg-gray-100 text-gray-400 border border-gray-200 cursor-not-allowed"
               : "bg-blue-100 text-blue-800 border border-blue-200 hover:bg-blue-200 hover:border-blue-300"
           }`}
+          aria-label={
+            copied
+              ? "Coupon code copied to clipboard"
+              : isExpired
+              ? "Coupon has expired and cannot be copied"
+              : `Copy coupon code ${coupon.code} to clipboard`
+          }
+          aria-describedby={copied ? `coupon-${coupon.id}-status` : undefined}
         >
           {copied ? (
             <>
@@ -112,6 +143,7 @@ export default function CouponCard({ coupon }: CouponCardProps) {
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
+                aria-hidden="true"
               >
                 <path
                   strokeLinecap="round"
@@ -129,6 +161,7 @@ export default function CouponCard({ coupon }: CouponCardProps) {
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
+                aria-hidden="true"
               >
                 <path
                   strokeLinecap="round"
@@ -146,6 +179,7 @@ export default function CouponCard({ coupon }: CouponCardProps) {
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
+                aria-hidden="true"
               >
                 <path
                   strokeLinecap="round"
@@ -158,7 +192,17 @@ export default function CouponCard({ coupon }: CouponCardProps) {
             </>
           )}
         </button>
+        {copied && (
+          <span
+            id={`coupon-${coupon.id}-status`}
+            className="sr-only"
+            role="status"
+            aria-live="polite"
+          >
+            Coupon code copied to clipboard successfully
+          </span>
+        )}
       </div>
-    </div>
+    </article>
   );
 }

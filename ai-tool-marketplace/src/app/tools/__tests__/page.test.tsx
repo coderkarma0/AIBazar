@@ -3,7 +3,7 @@ import * as React from "react";
 import ToolsPage from "../page";
 
 // Mock the tools data
-jest.mock("../../../../../data/tools.json", () => [
+jest.mock("@/data/tools.json", () => [
   {
     id: "test-tool-1",
     name: "Test Tool 1",
@@ -136,7 +136,7 @@ describe("ToolsPage", () => {
     fireEvent.change(searchInput, { target: { value: "test" } });
 
     await waitFor(() => {
-      const clearButton = screen.getByLabelText("Clear search");
+      const clearButton = screen.getByLabelText("Clear search term: test");
       expect(clearButton).toBeInTheDocument();
     });
   });

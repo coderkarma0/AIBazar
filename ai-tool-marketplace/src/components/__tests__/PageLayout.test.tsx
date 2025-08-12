@@ -57,7 +57,7 @@ describe("PageLayout", () => {
       </PageLayout>
     );
 
-    expect(screen.getByLabelText("Breadcrumb")).toBeInTheDocument();
+    expect(screen.getByLabelText("Breadcrumb navigation")).toBeInTheDocument();
     expect(screen.getByRole("link", { name: "Home" })).toHaveAttribute(
       "href",
       "/"
@@ -76,7 +76,9 @@ describe("PageLayout", () => {
       </PageLayout>
     );
 
-    expect(screen.queryByLabelText("Breadcrumb")).not.toBeInTheDocument();
+    expect(
+      screen.queryByLabelText("Breadcrumb navigation")
+    ).not.toBeInTheDocument();
   });
 
   it("does not render breadcrumbs when empty array provided", () => {
@@ -86,7 +88,9 @@ describe("PageLayout", () => {
       </PageLayout>
     );
 
-    expect(screen.queryByLabelText("Breadcrumb")).not.toBeInTheDocument();
+    expect(
+      screen.queryByLabelText("Breadcrumb navigation")
+    ).not.toBeInTheDocument();
   });
 
   it("renders breadcrumb separators correctly", () => {

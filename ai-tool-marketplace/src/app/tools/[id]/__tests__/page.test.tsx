@@ -6,7 +6,7 @@ import ToolDetailPage, {
 } from "../page";
 
 // Mock the tools data
-jest.mock("../../../../../data/tools.json", () => [
+jest.mock("@/data/tools.json", () => [
   {
     id: "test-tool-1",
     name: "Test Tool 1",

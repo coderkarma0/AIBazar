@@ -21,7 +21,7 @@ describe("Navigation", () => {
   it("renders navigation with all menu items", () => {
     render(<Navigation />);
 
-    expect(screen.getByText("AI Tool Marketplace")).toBeInTheDocument();
+    expect(screen.getByText("AI Bazar")).toBeInTheDocument();
     expect(screen.getAllByText("Home")).toHaveLength(2); // Desktop and mobile
     expect(screen.getAllByText("Tools")).toHaveLength(2); // Desktop and mobile
     expect(screen.getAllByText("Leaderboard")).toHaveLength(2); // Desktop and mobile
@@ -127,7 +127,7 @@ describe("Navigation", () => {
   it("brand logo links to home page", () => {
     render(<Navigation />);
 
-    const brandLink = screen.getByRole("link", { name: "AI Tool Marketplace" });
+    const brandLink = screen.getByRole("link", { name: "AI Bazar" });
     expect(brandLink).toHaveAttribute("href", "/");
   });
 });

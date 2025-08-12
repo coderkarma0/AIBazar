@@ -40,11 +40,12 @@ const Navigation = () => {
                 <Link
                   key={item.name}
                   href={item.href}
-                  className={`px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 ${
+                  className={`px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 ${
                     isActive(item.href)
                       ? "bg-blue-100 text-blue-700"
                       : "text-gray-600 hover:text-gray-900 hover:bg-gray-50"
                   }`}
+                  aria-current={isActive(item.href) ? "page" : undefined}
                 >
                   {item.name}
                 </Link>
@@ -103,25 +104,28 @@ const Navigation = () => {
       <div
         id="mobile-menu"
         className={`md:hidden ${isMobileMenuOpen ? "block" : "hidden"}`}
-        role="menu"
         aria-labelledby="mobile-menu-button"
       >
-        <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t border-gray-200">
+        <nav
+          className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t border-gray-200"
+          aria-label="Mobile navigation"
+        >
           {navigationItems.map((item) => (
             <Link
               key={item.name}
               href={item.href}
-              className={`block px-3 py-2 rounded-md text-base font-medium transition-colors duration-200 ${
+              className={`block px-3 py-2 rounded-md text-base font-medium transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 ${
                 isActive(item.href)
                   ? "bg-blue-100 text-blue-700"
                   : "text-gray-600 hover:text-gray-900 hover:bg-gray-50"
               }`}
               onClick={() => setIsMobileMenuOpen(false)}
+              aria-current={isActive(item.href) ? "page" : undefined}
             >
               {item.name}
             </Link>
           ))}
-        </div>
+        </nav>
       </div>
     </nav>
   );

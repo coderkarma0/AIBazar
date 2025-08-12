@@ -154,7 +154,7 @@ describe("CouponsPage - Integration", () => {
     expect(couponCards).toHaveLength(3);
 
     couponCards.forEach((card) => {
-      expect(grid).toContainElement(card);
+      expect(grid).toContainElement(card as HTMLElement);
     });
   });
 

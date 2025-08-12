@@ -1,37 +1,31 @@
 "use client";
 
-import { Suspense, lazy, ComponentType } from "react";
+import { Suspense, ReactNode } from "react";
+import ErrorBoundary from "./ErrorBoundary";
 import LoadingSpinner from "./LoadingSpinner";
 
 interface LazyWrapperProps {
-  fallback?: React.ReactNode;
-  className?: string;
+  children: ReactNode;
+  fallback?: ReactNode;
+  errorFallback?: ReactNode;
+  loadingText?: string;
+  showErrorDetails?: boolean;
 }
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-export function createLazyComponent<T extends ComponentType<any>>(
-  importFn: () => Promise<{ default: T }>,
-  fallback?: React.ReactNode
-) {
-  const LazyComponent = lazy(importFn);
+const LazyWrapper: React.FC<LazyWrapperProps> = ({
+  children,
+  fallback,
+  errorFallback,
+  loadingText = "Loading component...",
+  showErrorDetails = false,
+}) => {
+  const defaultFallback = <LoadingSpinner text={loadingText} />;
 
-  return function WrappedLazyComponent(
-    props: React.ComponentProps<T> & LazyWrapperProps
-  ) {
-    const { fallback: customFallback, className, ...componentProps } = props;
+  return (
+    <ErrorBoundary fallback={errorFallback} showDetails={showErrorDetails}>
+      <Suspense fallback={fallback || defaultFallback}>{children}</Suspense>
+    </ErrorBoundary>
+  );
+};
 
-    const defaultFallback = (
-      <div
-        className={`flex items-center justify-center p-8 ${className || ""}`}
-      >
-        <LoadingSpinner size="md" />
-      </div>
-    );
-
-    return (
-      <Suspense fallback={customFallback || fallback || defaultFallback}>
-        <LazyComponent {...(componentProps as React.ComponentProps<T>)} />
-      </Suspense>
-    );
-  };
-}
+export default LazyWrapper;
